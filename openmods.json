@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openmods.nexus/openmods.schema.json",
+  "openmods": 1,
+  "name": "Auto Regeneration",
+  "summary": "Health and mana recover 1.25% of their maximum every second, focus and vessel and transformation energy 5 per second. Always on with any gourd.",
+  "games": ["black-myth-wukong"],
+  "tags": ["gameplay"],
+  "gameVersions": ["1.0.21"],
+  "cover": "docs/cover.png"
+}

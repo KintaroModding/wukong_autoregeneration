@@ -1,0 +1,974 @@
+{
+ "messages": {
+  "BtlShare.FUStBuffDesc": {
+   "1": {
+    "name": "ID",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "2": {
+    "name": "BuffTips",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "3": {
+    "name": "BuffActiveCondition",
+    "label": "single",
+    "type": [
+     "message",
+     "FUStBuffEffectActiveCondition"
+    ]
+   },
+   "4": {
+    "name": "BuffLayerCounterType",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSBuffLayerCounterType"
+    ]
+   },
+   "5": {
+    "name": "BuffCategory",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBuffAndSkillEffectCategory"
+    ]
+   },
+   "6": {
+    "name": "CanRemoveWhenAttackHit",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSYesNo"
+    ]
+   },
+   "7": {
+    "name": "CanRemoveWhenAttacked",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSYesNo"
+    ]
+   },
+   "8": {
+    "name": "Delay",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "9": {
+    "name": "Duration",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "10": {
+    "name": "Interval",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "11": {
+    "name": "AlmostEndAheadTime",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "12": {
+    "name": "MaxLayer",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "13": {
+    "name": "TargetBase",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBuffRangeTargetBase"
+    ]
+   },
+   "14": {
+    "name": "TargetCount",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "15": {
+    "name": "TargetFilter",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "16": {
+    "name": "TargetTypeFilter",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "17": {
+    "name": "AffiliationTypeFilter",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "18": {
+    "name": "Range",
+    "label": "single",
+    "type": [
+     "message",
+     "FUStRange"
+    ]
+   },
+   "19": {
+    "name": "BuffEffects",
+    "label": "repeated",
+    "type": [
+     "message",
+     "FUStBuffEffectAttr"
+    ]
+   },
+   "20": {
+    "name": "IsExclusiveBuff",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSYesNo"
+    ]
+   },
+   "21": {
+    "name": "CanBeInherited",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSYesNo"
+    ]
+   },
+   "22": {
+    "name": "Guard",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   }
+  },
+  "BtlShare.FUStBuffEffectActiveCondition": {
+   "1": {
+    "name": "ConditionType",
+    "label": "single",
+    "type": [
+     "enum",
+     "EGSBuffAndSkillEffectActiveCondition"
+    ]
+   },
+   "2": {
+    "name": "ConditionParams",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   }
+  },
+  "BtlShare.FUStBuffEffectAttr": {
+   "1": {
+    "name": "EffectTrigger",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBuffEffectTriggerType"
+    ]
+   },
+   "2": {
+    "name": "EffectType",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBuffAndSkillEffectType"
+    ]
+   },
+   "3": {
+    "name": "EffectTargetSelectType",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBuffEffectTargetSelectType"
+    ]
+   },
+   "4": {
+    "name": "EffectParamsString",
+    "label": "repeated",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "5": {
+    "name": "EffectParams",
+    "label": "repeated",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "6": {
+    "name": "EffectParamsFloat",
+    "label": "repeated",
+    "type": [
+     "float",
+     null
+    ]
+   }
+  },
+  "BtlShare.FUStRange": {
+   "1": {
+    "name": "RangeType",
+    "label": "single",
+    "type": [
+     "enum",
+     "ERangeType"
+    ]
+   },
+   "2": {
+    "name": "RangeCenterType",
+    "label": "single",
+    "type": [
+     "enum",
+     "EEffectRangeCenterType"
+    ]
+   },
+   "3": {
+    "name": "RangeParam",
+    "label": "repeated",
+    "type": [
+     "int32",
+     null
+    ]
+   }
+  },
+  "BtlShare.TBFUStBuffDesc": {
+   "1": {
+    "name": "List",
+    "label": "repeated",
+    "type": [
+     "message",
+     "FUStBuffDesc"
+    ]
+   }
+  },
+  "ResB1.EquipDesc": {
+   "1": {
+    "name": "Id",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "2": {
+    "name": "EquipPosition",
+    "label": "single",
+    "type": [
+     "enum",
+     "EquipPosition"
+    ]
+   },
+   "3": {
+    "name": "EquipName",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "4": {
+    "name": "SkeletalMesh",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "5": {
+    "name": "ModularType",
+    "label": "single",
+    "type": [
+     "enum",
+     "ECharacterModularType"
+    ]
+   },
+   "6": {
+    "name": "ModularTypeForCharacterAI",
+    "label": "single",
+    "type": [
+     "enum",
+     "ECharacterModularType"
+    ]
+   },
+   "7": {
+    "name": "AttachSocketName",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "8": {
+    "name": "AnimBlueprintClass",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "9": {
+    "name": "StaticMesh",
+    "label": "repeated",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "10": {
+    "name": "WeaponElement",
+    "label": "single",
+    "type": [
+     "enum",
+     "EBGUWeaponElement"
+    ]
+   },
+   "11": {
+    "name": "SuitId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "12": {
+    "name": "AttrEffectId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "13": {
+    "name": "EquipEffectId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "14": {
+    "name": "EquipEffectDesc",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "15": {
+    "name": "DefaultCombatSkillId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "16": {
+    "name": "IsUniqueCombatSkill",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "17": {
+    "name": "AudioMappingId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "18": {
+    "name": "AudioHitMappingId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "19": {
+    "name": "IsFlexible",
+    "label": "single",
+    "type": [
+     "enum",
+     "YesNoType"
+    ]
+   },
+   "20": {
+    "name": "LocalizationTag",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "21": {
+    "name": "AutoWear",
+    "label": "single",
+    "type": [
+     "enum",
+     "YesNoType"
+    ]
+   },
+   "22": {
+    "name": "HideTail",
+    "label": "single",
+    "type": [
+     "enum",
+     "YesNoType"
+    ]
+   }
+  },
+  "ResB1.TBEquipDesc": {
+   "1": {
+    "name": "List",
+    "label": "repeated",
+    "type": [
+     "message",
+     "EquipDesc"
+    ]
+   }
+  },
+  "ResB1.TBTalentSDesc": {
+   "1": {
+    "name": "List",
+    "label": "repeated",
+    "type": [
+     "message",
+     "TalentSDesc"
+    ]
+   }
+  },
+  "ResB1.TalentLevelUpCfg": {
+   "1": {
+    "name": "Level",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "2": {
+    "name": "CostTalentPoint",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "3": {
+    "name": "CostItem1Id",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "4": {
+    "name": "CostItem1Num",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "5": {
+    "name": "CostItem2Id",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "6": {
+    "name": "CostItem2Num",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "7": {
+    "name": "CostItem3Id",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "8": {
+    "name": "CostItem3Num",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "9": {
+    "name": "AttrEffectId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   }
+  },
+  "ResB1.TalentSDesc": {
+   "1": {
+    "name": "Id",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "2": {
+    "name": "Name",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "3": {
+    "name": "TalentGroupId",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "4": {
+    "name": "UnitResIDStrs",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "5": {
+    "name": "PassiveSkillIDs",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "6": {
+    "name": "AddBuffIDs",
+    "label": "single",
+    "type": [
+     "string",
+     null
+    ]
+   },
+   "7": {
+    "name": "RequireTalentId",
+    "label": "repeated",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "8": {
+    "name": "RequireSpellId",
+    "label": "repeated",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "9": {
+    "name": "MaxLevel",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "10": {
+    "name": "LevelUpCfg",
+    "label": "repeated",
+    "type": [
+     "message",
+     "TalentLevelUpCfg"
+    ]
+   },
+   "11": {
+    "name": "Type",
+    "label": "single",
+    "type": [
+     "enum",
+     "TalentType"
+    ]
+   },
+   "12": {
+    "name": "Rank",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "13": {
+    "name": "RequirePlayerLevel",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "14": {
+    "name": "IsSpellOnly",
+    "label": "single",
+    "type": [
+     "enum",
+     "YesNoType"
+    ]
+   },
+   "15": {
+    "name": "LocalizationTag",
+    "label": "single",
+    "type": [
+     "int32",
+     null
+    ]
+   },
+   "16": {
+    "name": "IsHide",
+    "label": "single",
+    "type": [
+     "enum",
+     "YesNoType"
+    ]
+   }
+  }
+ },
+ "enums": {
+  "BtlB1.EquipPosition": {
+   "0": "Head",
+   "1": "Upwear",
+   "2": "Arm",
+   "3": "Foot",
+   "4": "Hulu",
+   "5": "Weapon",
+   "6": "Fabao",
+   "7": "Accessory",
+   "8": "EnumMax"
+  },
+  "BtlShare.EBuffAndSkillEffectCategory": {
+   "0": "Neutral",
+   "1": "Positive",
+   "2": "Negative",
+   "3": "EnumMax"
+  },
+  "BtlShare.EBuffAndSkillEffectType": {
+   "0": "None",
+   "1": "SkillDamage",
+   "2": "AddAttr",
+   "3": "RecoverAttr",
+   "4": "AddBuffByBone",
+   "5": "RemoveBuff",
+   "6": "TriggerProjectileReaction",
+   "7": "SetSimpleState",
+   "8": "RemoveSimpleState",
+   "9": "Sucide",
+   "10": "SwitchLocomotionAnimGroup",
+   "11": "DragFarCamera",
+   "13": "DestroyFireProjectile",
+   "15": "Teleport",
+   "17": "ResetSkillCd",
+   "18": "AttackStiff",
+   "19": "AwakePartner",
+   "20": "SpawnProjectile",
+   "21": "SwitchBullet",
+   "22": "SwitchEnvironment",
+   "23": "TriggerScreenEffect",
+   "24": "EnableCollisionChanel",
+   "25": "TriggerHidden",
+   "26": "PauseAi",
+   "27": "CleanBulletCtrable",
+   "28": "SummonUnit",
+   "29": "SwitchMmgroup",
+   "30": "DestroyBullet",
+   "31": "BulletSwitchSelf",
+   "32": "SwitchBehaviorTree",
+   "33": "HideOrShowMesh",
+   "34": "SwitchAttackerAbnormalDispId",
+   "36": "HiddenBloodBar",
+   "38": "ChangeMoveSpeed",
+   "39": "DrawLineToTarget",
+   "40": "BulletsSimpleSpawn",
+   "41": "BulletAutoAttack",
+   "42": "BulletScopeMonitor",
+   "43": "SpawnEmitter",
+   "45": "DestroyAllSummons",
+   "46": "AddBuff",
+   "47": "SetMatsParamAdvanced",
+   "48": "SetMatsLayerParamAdvanced",
+   "51": "SwitchPlayerCamInfoId",
+   "52": "SpawnGhostActor",
+   "53": "ModifyCollisionHitWeight",
+   "56": "SwitchCollisionHitMove",
+   "57": "TriggerChargeNextStage",
+   "63": "AddBuffByBuffGroupTotalLayers",
+   "64": "TimeScale",
+   "65": "ModifyManagedEffect",
+   "66": "BulletHitBack",
+   "67": "MoveToPoint",
+   "68": "TriggerPassiveSkill",
+   "69": "TriggerTttbFeedback",
+   "70": "CallSummonUseSkill",
+   "71": "ScalingBulletSpd",
+   "72": "SpawnFxbyDispConfigWithEmitterInfo",
+   "73": "DropAttrItem",
+   "75": "SwitchTeamId",
+   "76": "EscapeAfterDeath",
+   "77": "SwitchStateLib",
+   "78": "InitiatePriorityAction",
+   "79": "BeginModularSimulation",
+   "80": "DetachModularParts",
+   "81": "RestoreModularParts",
+   "82": "ModularBreakDown",
+   "83": "PlayCameraShake",
+   "85": "SetStaminaRecoverMul",
+   "86": "DestroyProjectileById",
+   "87": "CostAttr",
+   "88": "SetPartRuleId",
+   "89": "SetPartActive",
+   "91": "ResetBlockInfo",
+   "92": "ActivateWeapons",
+   "93": "DeactivateWeapons",
+   "94": "SwitchCollisionProfile",
+   "95": "AccumulateAbnormalValue",
+   "96": "RemoveAbnormalFinalEffectByStep",
+   "97": "ClearAbnormalState",
+   "99": "SwitchSkillCameraGroup",
+   "100": "SummonRecall",
+   "101": "RecoveryPartDamageValue",
+   "103": "FrozenFracture",
+   "104": "DoFreshMultiTarget",
+   "105": "InterruptRestoreModularParts",
+   "106": "HitDestructibleActor",
+   "107": "EnableAssistCollision",
+   "108": "RemoveBuffByCategory",
+   "109": "TauntTarget",
+   "110": "DestroyModularParts",
+   "111": "KjlrandomLightning",
+   "112": "EnablePreciseDodge",
+   "113": "DecreaseAbnormalAccValue",
+   "114": "ModifyCooldown",
+   "115": "DisableCapsuleCollision",
+   "116": "DisableMeshCollision",
+   "117": "DisableGravity",
+   "118": "CostPlayerTransEnergy",
+   "119": "SetPhantomRushConfig",
+   "120": "DestroySummonsById",
+   "121": "SetUnitBattleBgm",
+   "122": "SetBgmState",
+   "123": "ForceLockTarget",
+   "124": "ApplyMasterAttrByRate",
+   "125": "AddAllSummonLifeTime",
+   "126": "ImmuneHardMove",
+   "127": "SuperArmorLevelModify",
+   "128": "FilterBuff",
+   "129": "FilterSkillEffect",
+   "130": "SetLockPartHp",
+   "131": "BulletSwitchSelfNoImmediately",
+   "132": "DisableInteract",
+   "133": "NeverIntoBattle",
+   "134": "IncreasePevalue",
+   "135": "ClearPevalue",
+   "136": "SwitchPeconfig",
+   "137": "SetBgmSwitchPaused",
+   "138": "AssistBreakFrozen",
+   "139": "SwitchCameraGroup",
+   "140": "SwitchTransMusic",
+   "141": "CastProjectileLifeOver",
+   "142": "DisableCameraLockPoint",
+   "143": "DisableAutoLockPoint",
+   "144": "AddPhysicsImpulse",
+   "145": "ThrowUpDeadUnit",
+   "146": "SetMpcParamByFloatCurve",
+   "147": "ApplyIllusionEquipOverride",
+   "148": "AddPostProcessMaterial",
+   "149": "FixHpByRate",
+   "150": "SwitchBulletAndSmartSelectTarget",
+   "151": "InheritedHpByRate",
+   "152": "SetPreciseCompRelativeScale",
+   "153": "SwitchFreeCameraMode",
+   "154": "RelieveImmobilized",
+   "155": "EnterSpiderSilkEntangle",
+   "156": "SetGmcustomTimeDilation",
+   "157": "PlayerTrans",
+   "158": "MagicallyChange",
+   "159": "MagicallyChangeRecover",
+   "160": "BreakCloudMove",
+   "161": "DecreaseLifeSavingHairCoolDown",
+   "162": "ActiveExtLifeSavingHair",
+   "163": "ApplyEnvironmentMask",
+   "164": "ToggleWeaponStatus",
+   "165": "SetHitMoveUnmovable",
+   "166": "SetEnableVigourDropManually",
+   "167": "MultiTargetBulletSwitchToBackNestProjectile",
+   "168": "ResetSealingSpell",
+   "169": "EnumMax"
+  },
+  "BtlShare.EBuffEffectTargetSelectType": {
+   "0": "BuffTarget",
+   "1": "BuffOwner",
+   "2": "Both"
+  },
+  "BtlShare.EBuffEffectTriggerType": {
+   "0": "None",
+   "1": "Generation",
+   "2": "Time",
+   "3": "Remove",
+   "4": "CasterDead",
+   "5": "Dead",
+   "6": "LayerMax",
+   "7": "BeAttacked",
+   "8": "OnSkillBreak",
+   "9": "IntoChargeEnd",
+   "10": "OnCriticalHit",
+   "11": "OnKillUnit",
+   "12": "SkillCostOnceDmg",
+   "13": "OnShieldBreak",
+   "14": "OnSkillDamage",
+   "15": "BeHurted",
+   "16": "BeHurtedNoneElem",
+   "17": "BeHurtedFreeze",
+   "18": "BeHurtedBurn",
+   "19": "BeHurtedPoison",
+   "20": "BeHurtedThunder",
+   "21": "BeHurtedYin",
+   "22": "BeHurtedYang",
+   "23": "EnumMax"
+  },
+  "BtlShare.EBuffRangeTargetBase": {
+   "0": "RootCaster",
+   "1": "Caster",
+   "2": "Owner"
+  },
+  "BtlShare.EEffectRangeCenterType": {
+   "0": "ActorPosition",
+   "1": "HitPosition"
+  },
+  "BtlShare.EGSBuffAndSkillEffectActiveCondition": {
+   "0": "Always",
+   "1": "ByProbability",
+   "2": "HasTalent",
+   "3": "HasBuff",
+   "4": "ByAttr",
+   "5": "NotHasTalent",
+   "6": "HasAnyBuff",
+   "7": "NotHasBuff",
+   "8": "MasterHasTalent",
+   "9": "CheckPhysMat",
+   "10": "IsSprinting",
+   "11": "CheckNotOnPhysMat",
+   "12": "TargetHasBuff",
+   "13": "TargetHasSimpleState",
+   "14": "TargetByAttr",
+   "15": "TargetHasAnyBuff",
+   "16": "TargetHasAnySimpleState",
+   "17": "HasAnyTalent",
+   "18": "CheckResId",
+   "19": "MasterNotHasBuff",
+   "20": "MasterHasAnyBuff",
+   "21": "TargetHasAbnormalState",
+   "22": "HasSimpleState",
+   "23": "TargetNotHasBuff",
+   "24": "NotHasSimpleState",
+   "25": "EnumMax"
+  },
+  "BtlShare.EGSBuffLayerCounterType": {
+   "0": "ReduceLayer",
+   "1": "RemoveDirectly",
+   "2": "EnumMax"
+  },
+  "BtlShare.EGSYesNo": {
+   "0": "No",
+   "1": "Yes",
+   "3": "EnumMax"
+  },
+  "BtlShare.ERangeType": {
+   "0": "TargetBaseObj",
+   "1": "Circle",
+   "2": "Rect",
+   "3": "Cylinder",
+   "4": "Sphere",
+   "5": "Sector",
+   "6": "ForwardRect",
+   "7": "Ring",
+   "8": "AnnularSector",
+   "9": "VelocityDirSphere",
+   "10": "MultiTargetTurn",
+   "11": "GroupTarget",
+   "12": "FamilyTarget"
+  },
+  "ResB1.EBGUWeaponElement": {
+   "0": "None",
+   "1": "Freeze",
+   "2": "Burn",
+   "3": "Poison",
+   "4": "Thunder"
+  },
+  "ResB1.ECharacterModularType": {
+   "0": "MasterPose",
+   "1": "CopyPose",
+   "2": "AttachToSocket"
+  },
+  "ResB1.TalentType": {
+   "0": "Default",
+   "1": "Suit",
+   "2": "Legacy",
+   "3": "LegacyPassive"
+  },
+  "ResB1.YesNoType": {
+   "0": "No",
+   "1": "Yes"
+  }
+ }
+}

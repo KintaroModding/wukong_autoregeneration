@@ -1,0 +1,15 @@
+{
+  "name": "Auto Regeneration",
+  "folder": "wukong_autoregeneration",
+  "author": "Kintaro",
+  "version": "1.0",
+  "description": "Health and mana recover 1.25% of their maximum every second; focus, vessel and transformation energy recover too.",
+  "kind": "wukong",
+  "game": "wukong",
+  "gameFolder": "Black Myth Wukong",
+  "paksPath": "b1\\Content\\Paks",
+  "gameVersion": "1.0.21.23831",
+  "engine": "UE5_0",
+  "pakName": "wukong_autoregeneration_P",
+  "launchOptions": "-fileopenlog"
+}

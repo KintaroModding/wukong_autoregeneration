@@ -1,0 +1,3359 @@
+{
+ "$type": "ResB1.TBEquipDesc",
+ "List": [
+  {
+   "Id": 10101,
+   "EquipName": "旧头饰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SK_Wukong_head_born.SK_Wukong_head_born",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/AnimBlueprint/ABP_Wukong_head_born.ABP_Wukong_head_born_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 101
+  },
+  {
+   "Id": 10102,
+   "EquipPosition": "Upwear",
+   "EquipName": "旧衲衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/SK_Wukong_body_born.SK_Wukong_body_born",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/AnimBlueprint/ABP_Wukong_body_born.ABP_Wukong_body_born_C",
+   "AttrEffectId": 102,
+   "AudioMappingId": 1100
+  },
+  {
+   "Id": 10103,
+   "EquipPosition": "Arm",
+   "EquipName": "旧护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/SK_Wukong_arm_born.SK_Wukong_arm_born",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/AnimBlueprint/ABP_Wukong_arm_born.ABP_Wukong_arm_born_C",
+   "AttrEffectId": 103
+  },
+  {
+   "Id": 10104,
+   "EquipPosition": "Foot",
+   "EquipName": "旧腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/SK_Wukong_foot_born.SK_Wukong_foot_born",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/AnimBlueprint/ABP_Wukong_foot_born.ABP_Wukong_foot_born_C",
+   "AttrEffectId": 104,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10202,
+   "EquipPosition": "Upwear",
+   "EquipName": "虎皮裙",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/SK_WuKong_body_HuPi.SK_WuKong_body_HuPi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/AnimBlueprint/ABP_Wukong_body_HuPi.ABP_Wukong_body_HuPi_C",
+   "AttrEffectId": 202,
+   "AudioMappingId": 1100
+  },
+  {
+   "Id": 10203,
+   "EquipPosition": "Arm",
+   "EquipName": "绵布扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/SK_WuKong_arm_HuPi.SK_WuKong_arm_HuPi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/AnimBlueprint/ABP_Wukong_arm_HuPi.ABP_Wukong_arm_HuPi_C",
+   "AttrEffectId": 203
+  },
+  {
+   "Id": 10204,
+   "EquipPosition": "Foot",
+   "EquipName": "绵布腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/SK_WuKong_foot_HuPi.SK_WuKong_foot_HuPi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuPi/AnimBlueprint/ABP_Wukong_foot_HuPi.ABP_Wukong_foot_HuPi_C",
+   "AttrEffectId": 204,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10302,
+   "EquipPosition": "Upwear",
+   "EquipName": "锦鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_body_BaiYi.SK_WuKong_body_BaiYi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_body_BaiYi.ABP_Wukong_body_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 302,
+   "EquipEffectId": 900302,
+   "EquipEffectDesc": "生命不足时，缓缓恢复些微生命，若在水中，效果增强",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10303,
+   "EquipPosition": "Arm",
+   "EquipName": "锦鳞护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_arm_BaiYi.SK_WuKong_arm_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_arm_BaiYi.ABP_Wukong_arm_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 303
+  },
+  {
+   "Id": 10304,
+   "EquipPosition": "Foot",
+   "EquipName": "锦鳞行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_foot_BaiYi.SK_WuKong_foot_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_foot_BaiYi.ABP_Wukong_foot_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 304,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10312,
+   "EquipPosition": "Upwear",
+   "EquipName": "锦鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_body_BaiYi.SK_WuKong_body_BaiYi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_body_BaiYi.ABP_Wukong_body_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 312,
+   "EquipEffectId": 900302,
+   "EquipEffectDesc": "生命不足时，缓缓恢复些微生命，若在水中，效果增强",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10313,
+   "EquipPosition": "Arm",
+   "EquipName": "锦鳞护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_arm_BaiYi.SK_WuKong_arm_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_arm_BaiYi.ABP_Wukong_arm_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 313
+  },
+  {
+   "Id": 10314,
+   "EquipPosition": "Foot",
+   "EquipName": "锦鳞行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_foot_BaiYi.SK_WuKong_foot_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_foot_BaiYi.ABP_Wukong_foot_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 314,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10322,
+   "EquipPosition": "Upwear",
+   "EquipName": "锦鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_body_BaiYi.SK_WuKong_body_BaiYi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_body_BaiYi.ABP_Wukong_body_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 322,
+   "EquipEffectId": 900302,
+   "EquipEffectDesc": "生命不足时，缓缓恢复些微生命，若在水中，效果增强",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10323,
+   "EquipPosition": "Arm",
+   "EquipName": "锦鳞护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_arm_BaiYi.SK_WuKong_arm_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_arm_BaiYi.ABP_Wukong_arm_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 323
+  },
+  {
+   "Id": 10324,
+   "EquipPosition": "Foot",
+   "EquipName": "锦鳞行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_foot_BaiYi.SK_WuKong_foot_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_foot_BaiYi.ABP_Wukong_foot_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 324,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10332,
+   "EquipPosition": "Upwear",
+   "EquipName": "锦鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_body_BaiYi.SK_WuKong_body_BaiYi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_body_BaiYi.ABP_Wukong_body_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 332,
+   "EquipEffectId": 900302,
+   "EquipEffectDesc": "生命不足时，缓缓恢复些微生命，若在水中，效果增强",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10333,
+   "EquipPosition": "Arm",
+   "EquipName": "锦鳞护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_arm_BaiYi.SK_WuKong_arm_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_arm_BaiYi.ABP_Wukong_arm_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 333
+  },
+  {
+   "Id": 10334,
+   "EquipPosition": "Foot",
+   "EquipName": "锦鳞行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/SK_WuKong_foot_BaiYi.SK_WuKong_foot_BaiYi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/BaiYi/AnimBlueprint/ABP_Wukong_foot_BaiYi.ABP_Wukong_foot_BaiYi_C",
+   "SuitId": 3,
+   "AttrEffectId": 334,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10342,
+   "EquipPosition": "Upwear",
+   "EquipName": "锦鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Jinlin/SK_wukong_body_jinlin.SK_wukong_body_jinlin",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Jinlin/AnimBlueprint/ABP_wukong_body_jinlin.ABP_wukong_body_jinlin_C",
+   "SuitId": 3,
+   "AttrEffectId": 342,
+   "EquipEffectId": 900332,
+   "EquipEffectDesc": "生命不足时，缓缓恢复些微生命，若在水中，效果较大增强",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10343,
+   "EquipPosition": "Arm",
+   "EquipName": "锦鳞护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Jinlin/SK_wukong_arm_jinlin.SK_wukong_arm_jinlin",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Jinlin/AnimBlueprint/ABP_wukong_arm_jinlin.ABP_wukong_arm_jinlin_C",
+   "SuitId": 3,
+   "AttrEffectId": 343
+  },
+  {
+   "Id": 10344,
+   "EquipPosition": "Foot",
+   "EquipName": "锦鳞行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Jinlin/SK_wukong_foot_jinlin.SK_wukong_foot_jinlin",
+   "SuitId": 3,
+   "AttrEffectId": 344,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10401,
+   "EquipName": "行者戒箍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_head_XingZhe.SK_WuKong_head_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_head_XingZhe.ABP_Wukong_head_XingZhe_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 4,
+   "AttrEffectId": 401,
+   "EquipEffectId": 900401,
+   "EquipEffectDesc": "疾奔时可饮酒",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10402,
+   "EquipPosition": "Upwear",
+   "EquipName": "行者直裰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_body_XingZhe.SK_WuKong_body_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_body_XingZhe.ABP_Wukong_body_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 402,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 10403,
+   "EquipPosition": "Arm",
+   "EquipName": "行者扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_arm_XingZhe.SK_WuKong_arm_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_arm_XingZhe.ABP_Wukong_arm_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 403
+  },
+  {
+   "Id": 10404,
+   "EquipPosition": "Foot",
+   "EquipName": "行者腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_foot_XingZhe.SK_WuKong_foot_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_foot_XingZhe.ABP_Wukong_foot_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 404,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10411,
+   "EquipName": "行者戒箍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_head_XingZhe.SK_WuKong_head_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_head_XingZhe.ABP_Wukong_head_XingZhe_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 4,
+   "AttrEffectId": 411,
+   "EquipEffectId": 900401,
+   "EquipEffectDesc": "疾奔时可饮酒",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10412,
+   "EquipPosition": "Upwear",
+   "EquipName": "行者直裰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_body_XingZhe.SK_WuKong_body_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_body_XingZhe.ABP_Wukong_body_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 412,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 10413,
+   "EquipPosition": "Arm",
+   "EquipName": "行者扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_arm_XingZhe.SK_WuKong_arm_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_arm_XingZhe.ABP_Wukong_arm_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 413
+  },
+  {
+   "Id": 10414,
+   "EquipPosition": "Foot",
+   "EquipName": "行者腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_foot_XingZhe.SK_WuKong_foot_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_foot_XingZhe.ABP_Wukong_foot_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 414,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10421,
+   "EquipName": "行者戒箍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_head_XingZhe.SK_WuKong_head_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_head_XingZhe.ABP_Wukong_head_XingZhe_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 4,
+   "AttrEffectId": 421,
+   "EquipEffectId": 900401,
+   "EquipEffectDesc": "疾奔时可饮酒",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10422,
+   "EquipPosition": "Upwear",
+   "EquipName": "行者直裰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_body_XingZhe.SK_WuKong_body_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_body_XingZhe.ABP_Wukong_body_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 422,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 10423,
+   "EquipPosition": "Arm",
+   "EquipName": "行者扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_arm_XingZhe.SK_WuKong_arm_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_arm_XingZhe.ABP_Wukong_arm_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 423
+  },
+  {
+   "Id": 10424,
+   "EquipPosition": "Foot",
+   "EquipName": "行者腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_foot_XingZhe.SK_WuKong_foot_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_foot_XingZhe.ABP_Wukong_foot_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 424,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10431,
+   "EquipName": "行者戒箍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_head_XingZhe.SK_WuKong_head_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_head_XingZhe.ABP_Wukong_head_XingZhe_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 4,
+   "AttrEffectId": 431,
+   "EquipEffectId": 900401,
+   "EquipEffectDesc": "疾奔时可饮酒",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10432,
+   "EquipPosition": "Upwear",
+   "EquipName": "行者直裰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_body_XingZhe.SK_WuKong_body_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_body_XingZhe.ABP_Wukong_body_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 432,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 10433,
+   "EquipPosition": "Arm",
+   "EquipName": "行者扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_arm_XingZhe.SK_WuKong_arm_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_arm_XingZhe.ABP_Wukong_arm_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 433
+  },
+  {
+   "Id": 10434,
+   "EquipPosition": "Foot",
+   "EquipName": "行者腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/SK_WuKong_foot_XingZhe.SK_WuKong_foot_XingZhe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/XingZhe/AnimBlueprint/ABP_Wukong_foot_XingZhe.ABP_Wukong_foot_XingZhe_C",
+   "SuitId": 4,
+   "AttrEffectId": 434,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10441,
+   "EquipName": "行者戒箍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Xingzhe_02/SK_wukong_head_xingzhe_02.SK_wukong_head_xingzhe_02",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 4,
+   "AttrEffectId": 441,
+   "EquipEffectId": 900441,
+   "EquipEffectDesc": "疾奔时可饮酒",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10442,
+   "EquipPosition": "Upwear",
+   "EquipName": "行者直裰",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Xingzhe_02/SK_wukong_body_xingzhe_02.SK_wukong_body_xingzhe_02",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Xingzhe_02/AnimBlueprint/ABP_wukong_body_xingzhe_02.ABP_wukong_body_xingzhe_02_C",
+   "SuitId": 4,
+   "AttrEffectId": 442,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 10443,
+   "EquipPosition": "Arm",
+   "EquipName": "行者扎腕",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Xingzhe_02/SK_wukong_arm_xingzhe_02.SK_wukong_arm_xingzhe_02",
+   "SuitId": 4,
+   "AttrEffectId": 443
+  },
+  {
+   "Id": 10444,
+   "EquipPosition": "Foot",
+   "EquipName": "行者腿绷",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Xingzhe_02/SK_wukong_foot_xingzhe_02.SK_wukong_foot_xingzhe_02",
+   "SuitId": 4,
+   "AttrEffectId": 444,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10501,
+   "EquipName": "凤翅紫金冠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/SK_WuKong_head_DaShengKuiJia.SK_WuKong_head_DaShengKuiJia",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/AnimBlueprint/ABP_Wukong_head_DaShengKuiJia.ABP_Wukong_head_DaShengKuiJia_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 5,
+   "AttrEffectId": 501
+  },
+  {
+   "Id": 10502,
+   "EquipPosition": "Upwear",
+   "EquipName": "锁子黄金甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/SK_WuKong_body_DaShengKuiJia.SK_WuKong_body_DaShengKuiJia",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/AnimBlueprint/ABP_Wukong_body_DaShengKuiJia.ABP_Wukong_body_DaShengKuiJia_C",
+   "SuitId": 5,
+   "AttrEffectId": 502,
+   "AudioMappingId": 1500
+  },
+  {
+   "Id": 10503,
+   "EquipPosition": "Arm",
+   "EquipName": "点翠飞龙釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/SK_WuKong_arm_DaShengKuiJia.SK_WuKong_arm_DaShengKuiJia",
+   "SuitId": 5,
+   "AttrEffectId": 503
+  },
+  {
+   "Id": 10504,
+   "EquipPosition": "Foot",
+   "EquipName": "藕丝步云履",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/DaShengKuiJia/SK_WuKong_foot_DaShengKuiJia.SK_WuKong_foot_DaShengKuiJia",
+   "SuitId": 5,
+   "AttrEffectId": 504
+  },
+  {
+   "Id": 10602,
+   "EquipPosition": "Upwear",
+   "EquipName": "赭黄战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_body_HuangFeng.SK_WuKong_body_HuangFeng",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/AnimBlueprint/ABP_Wukong_body_HuangFeng.ABP_Wukong_body_HuangFeng_C",
+   "SuitId": 6,
+   "AttrEffectId": 602,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10603,
+   "EquipPosition": "Arm",
+   "EquipName": "赭黄臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_arm_HuangFeng.SK_WuKong_arm_HuangFeng",
+   "SuitId": 6,
+   "AttrEffectId": 603,
+   "EquipEffectId": 900603,
+   "EquipEffectDesc": "每消耗一段积攒的棍势，少时内少许增加<EquipDetail_LegendDesc_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10604,
+   "EquipPosition": "Foot",
+   "EquipName": "赭黄胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_foot_HuangFeng.SK_WuKong_foot_HuangFeng",
+   "SuitId": 6,
+   "AttrEffectId": 604,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10612,
+   "EquipPosition": "Upwear",
+   "EquipName": "赭黄战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_body_HuangFeng.SK_WuKong_body_HuangFeng",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/AnimBlueprint/ABP_Wukong_body_HuangFeng.ABP_Wukong_body_HuangFeng_C",
+   "SuitId": 6,
+   "AttrEffectId": 612,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10613,
+   "EquipPosition": "Arm",
+   "EquipName": "赭黄臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_arm_HuangFeng.SK_WuKong_arm_HuangFeng",
+   "SuitId": 6,
+   "AttrEffectId": 613,
+   "EquipEffectId": 900603,
+   "EquipEffectDesc": "每消耗一段积攒的棍势，少时内少许增加<EquipDetail_LegendDesc_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10614,
+   "EquipPosition": "Foot",
+   "EquipName": "赭黄胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HuangFeng/SK_WuKong_foot_HuangFeng.SK_WuKong_foot_HuangFeng",
+   "SuitId": 6,
+   "AttrEffectId": 614
+  },
+  {
+   "Id": 10622,
+   "EquipPosition": "Upwear",
+   "EquipName": "赭黄战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Huangfeng_02/SK_wukong_body_huangfeng_02.SK_wukong_body_huangfeng_02",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Huangfeng_02/AnimBlueprint/ABP_wukong_body_huangfeng_02.ABP_wukong_body_huangfeng_02_C",
+   "SuitId": 6,
+   "AttrEffectId": 622,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10623,
+   "EquipPosition": "Arm",
+   "EquipName": "赭黄臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Huangfeng_02/SK_wukong_arm_huangfeng_02.SK_wukong_arm_huangfeng_02",
+   "SuitId": 6,
+   "AttrEffectId": 623,
+   "EquipEffectId": 900623,
+   "EquipEffectDesc": "每消耗一段积攒的棍势，少时内少许增加<EquipDetail_LegendDesc_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10624,
+   "EquipPosition": "Foot",
+   "EquipName": "赭黄胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Huangfeng_02/SK_wukong_foot_huangfeng_02.SK_wukong_foot_huangfeng_02",
+   "SuitId": 6,
+   "AttrEffectId": 624,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10701,
+   "EquipName": "厌火夜叉面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_head_YeChaWang.SK_WuKong_head_YeChaWang",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 7,
+   "AttrEffectId": 701,
+   "EquipEffectId": 900701,
+   "EquipEffectDesc": "生命不足时，增加较多攻击",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10702,
+   "EquipPosition": "Upwear",
+   "EquipName": "厌火绣衫",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_body_YeChaWang.SK_WuKong_body_YeChaWang",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/AnimBlueprint/ABP_Wukong_body_YeChaWang.ABP_Wukong_body_YeChaWang_C",
+   "SuitId": 7,
+   "AttrEffectId": 702,
+   "AudioMappingId": 1700
+  },
+  {
+   "Id": 10703,
+   "EquipPosition": "Arm",
+   "EquipName": "厌火魔手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_arm_YeChaWang.SK_WuKong_arm_YeChaWang",
+   "SuitId": 7,
+   "AttrEffectId": 703
+  },
+  {
+   "Id": 10704,
+   "EquipPosition": "Foot",
+   "EquipName": "厌火魔足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_foot_YeChaWang.SK_WuKong_foot_YeChaWang",
+   "SuitId": 7,
+   "AttrEffectId": 704,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10711,
+   "EquipName": "厌火夜叉面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_head_YeChaWang.SK_WuKong_head_YeChaWang",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 7,
+   "AttrEffectId": 711,
+   "EquipEffectId": 900701,
+   "EquipEffectDesc": "生命不足时，增加较多攻击",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10712,
+   "EquipPosition": "Upwear",
+   "EquipName": "厌火绣衫",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_body_YeChaWang.SK_WuKong_body_YeChaWang",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/AnimBlueprint/ABP_Wukong_body_YeChaWang.ABP_Wukong_body_YeChaWang_C",
+   "SuitId": 7,
+   "AttrEffectId": 712,
+   "AudioMappingId": 1700
+  },
+  {
+   "Id": 10713,
+   "EquipPosition": "Arm",
+   "EquipName": "厌火魔手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_arm_YeChaWang.SK_WuKong_arm_YeChaWang",
+   "SuitId": 7,
+   "AttrEffectId": 713
+  },
+  {
+   "Id": 10714,
+   "EquipPosition": "Foot",
+   "EquipName": "厌火魔足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/YeChaWang/SK_WuKong_foot_YeChaWang.SK_WuKong_foot_YeChaWang",
+   "SuitId": 7,
+   "AttrEffectId": 714,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 10802,
+   "EquipPosition": "Upwear",
+   "EquipName": "龙鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_body_KangJinLong.SK_WuKong_body_KangJinLong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/AnimBlueprint/ABP_Wukong_body_KangJinLong.ABP_Wukong_body_KangJinLong_C",
+   "SuitId": 8,
+   "AttrEffectId": 802,
+   "EquipEffectId": 900802,
+   "EquipEffectDesc": "天赋<EquipDetail_LegendDesc_KW>梦幻泡影</>造成的炸裂伤害将赋予雷蛰灾劫",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10803,
+   "EquipPosition": "Arm",
+   "EquipName": "龙鳞臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_arm_KangJinLong.SK_WuKong_arm_KangJinLong",
+   "SuitId": 8,
+   "AttrEffectId": 803
+  },
+  {
+   "Id": 10804,
+   "EquipPosition": "Foot",
+   "EquipName": "龙鳞胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_foot_KangJinLong.SK_WuKong_foot_KangJinLong",
+   "SuitId": 8,
+   "AttrEffectId": 804
+  },
+  {
+   "Id": 10812,
+   "EquipPosition": "Upwear",
+   "EquipName": "龙鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_body_KangJinLong.SK_WuKong_body_KangJinLong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/AnimBlueprint/ABP_Wukong_body_KangJinLong.ABP_Wukong_body_KangJinLong_C",
+   "SuitId": 8,
+   "AttrEffectId": 812,
+   "EquipEffectId": 900802,
+   "EquipEffectDesc": "天赋<EquipDetail_LegendDesc_KW>梦幻泡影</>造成的炸裂伤害将赋予雷蛰灾劫",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10813,
+   "EquipPosition": "Arm",
+   "EquipName": "龙鳞臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_arm_KangJinLong.SK_WuKong_arm_KangJinLong",
+   "SuitId": 8,
+   "AttrEffectId": 813
+  },
+  {
+   "Id": 10814,
+   "EquipPosition": "Foot",
+   "EquipName": "龙鳞胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong/SK_WuKong_foot_KangJinLong.SK_WuKong_foot_KangJinLong",
+   "SuitId": 8,
+   "AttrEffectId": 814
+  },
+  {
+   "Id": 10822,
+   "EquipPosition": "Upwear",
+   "EquipName": "龙鳞战袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong_02/SK_wukong_body_kangjinlong_02.SK_wukong_body_kangjinlong_02",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong_02/AnimBlueprint/ABP_wukong_body_kangjinlong_02.ABP_wukong_body_kangjinlong_02_C",
+   "SuitId": 8,
+   "AttrEffectId": 822,
+   "EquipEffectId": 900822,
+   "EquipEffectDesc": "天赋<EquipDetail_LegendDesc_KW>梦幻泡影</>造成的炸裂伤害将赋予雷蛰灾劫",
+   "AudioMappingId": 1200,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10823,
+   "EquipPosition": "Arm",
+   "EquipName": "龙鳞臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong_02/SK_wukong_arm_kangjinlong_02.SK_wukong_arm_kangjinlong_02",
+   "SuitId": 8,
+   "AttrEffectId": 823
+  },
+  {
+   "Id": 10824,
+   "EquipPosition": "Foot",
+   "EquipName": "龙鳞胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/KangJinLong_02/SK_wukong_foot_kangjinlong_02.SK_wukong_foot_kangjinlong_02",
+   "SuitId": 8,
+   "AttrEffectId": 824
+  },
+  {
+   "Id": 10902,
+   "EquipPosition": "Upwear",
+   "EquipName": "乌金皂罗袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_body_HeiFeng_clean.SK_WuKong_body_HeiFeng_clean",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_body_HeiFeng.ABP_Wukong_body_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 902,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10903,
+   "EquipPosition": "Arm",
+   "EquipName": "乌金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_arm_HeiFeng.SK_WuKong_arm_HeiFeng",
+   "SuitId": 9,
+   "AttrEffectId": 903
+  },
+  {
+   "Id": 10904,
+   "EquipPosition": "Foot",
+   "EquipName": "乌金行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_foot_HeiFeng.SK_WuKong_foot_HeiFeng",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_foot_HeiFeng.ABP_Wukong_foot_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 904,
+   "EquipEffectId": 900904,
+   "EquipEffectDesc": "身处化气状态片时后，一定程度增加破隐一击的伤害",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10912,
+   "EquipPosition": "Upwear",
+   "EquipName": "乌金皂罗袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_body_HeiFeng_clean.SK_WuKong_body_HeiFeng_clean",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_body_HeiFeng.ABP_Wukong_body_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 912,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10913,
+   "EquipPosition": "Arm",
+   "EquipName": "乌金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_arm_HeiFeng.SK_WuKong_arm_HeiFeng",
+   "SuitId": 9,
+   "AttrEffectId": 913
+  },
+  {
+   "Id": 10914,
+   "EquipPosition": "Foot",
+   "EquipName": "乌金行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_foot_HeiFeng.SK_WuKong_foot_HeiFeng",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_foot_HeiFeng.ABP_Wukong_foot_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 914,
+   "EquipEffectId": 900904,
+   "EquipEffectDesc": "身处化气状态片时后，一定程度增加破隐一击的伤害",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10922,
+   "EquipPosition": "Upwear",
+   "EquipName": "乌金皂罗袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_body_HeiFeng_clean.SK_WuKong_body_HeiFeng_clean",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_body_HeiFeng.ABP_Wukong_body_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 922,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10923,
+   "EquipPosition": "Arm",
+   "EquipName": "乌金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_arm_HeiFeng.SK_WuKong_arm_HeiFeng",
+   "SuitId": 9,
+   "AttrEffectId": 923
+  },
+  {
+   "Id": 10924,
+   "EquipPosition": "Foot",
+   "EquipName": "乌金行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/SK_WuKong_foot_HeiFeng.SK_WuKong_foot_HeiFeng",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/HeiFeng/AnimBlueprint/ABP_Wukong_foot_HeiFeng.ABP_Wukong_foot_HeiFeng_C",
+   "SuitId": 9,
+   "AttrEffectId": 924,
+   "EquipEffectId": 900904,
+   "EquipEffectDesc": "身处化气状态片时后，一定程度增加破隐一击的伤害",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 10932,
+   "EquipPosition": "Upwear",
+   "EquipName": "乌金皂罗袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Wujin/SK_wukong_body_wujin.SK_wukong_body_wujin",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Wujin/AnimBlueprint/ABP_wukong_body_wujin.ABP_wukong_body_wujin_C",
+   "SuitId": 9,
+   "AttrEffectId": 932,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 10933,
+   "EquipPosition": "Arm",
+   "EquipName": "乌金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Wujin/SK_wukong_arm_wujin.SK_wukong_arm_wujin",
+   "SuitId": 9,
+   "AttrEffectId": 933
+  },
+  {
+   "Id": 10934,
+   "EquipPosition": "Foot",
+   "EquipName": "乌金行缠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Wujin/SK_wukong_foot_wujin.SK_wukong_foot_wujin",
+   "SuitId": 9,
+   "AttrEffectId": 934,
+   "EquipEffectId": 900934,
+   "EquipEffectDesc": "身处化气状态片时后，一定程度增加破隐一击的伤害",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11001,
+   "EquipName": "金身怒目面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_head_MiLe.SK_WuKong_head_MiLe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/AnimBlueprint/ABP_wukong_head_mile.ABP_wukong_head_mile_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 10,
+   "AttrEffectId": 1001,
+   "EquipEffectId": 901001,
+   "EquipEffectDesc": "化身技若打中对手，还原时获得大量棍势",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11002,
+   "EquipPosition": "Upwear",
+   "EquipName": "金身绣衫",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_body_MiLe.SK_WuKong_body_MiLe",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/AnimBlueprint/ABP_Wukong_body_MiLe.ABP_Wukong_body_MiLe_C",
+   "SuitId": 10,
+   "AttrEffectId": 1002,
+   "AudioMappingId": 1700
+  },
+  {
+   "Id": 11003,
+   "EquipPosition": "Arm",
+   "EquipName": "金身护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_arm_MiLe.SK_WuKong_arm_MiLe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/ABP_Wukong_arm_MiLe.ABP_Wukong_arm_MiLe_C",
+   "SuitId": 10,
+   "AttrEffectId": 1003
+  },
+  {
+   "Id": 11004,
+   "EquipPosition": "Foot",
+   "EquipName": "金身护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_foot_MiLe.SK_WuKong_foot_MiLe",
+   "SuitId": 10,
+   "AttrEffectId": 1004,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11011,
+   "EquipName": "金身怒目面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_head_MiLe.SK_WuKong_head_MiLe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/AnimBlueprint/ABP_wukong_head_mile.ABP_wukong_head_mile_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 10,
+   "AttrEffectId": 1011,
+   "EquipEffectId": 901001,
+   "EquipEffectDesc": "化身技若打中对手，还原时获得大量棍势",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11012,
+   "EquipPosition": "Upwear",
+   "EquipName": "金身绣衫",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_body_MiLe.SK_WuKong_body_MiLe",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/AnimBlueprint/ABP_Wukong_body_MiLe.ABP_Wukong_body_MiLe_C",
+   "SuitId": 10,
+   "AttrEffectId": 1012,
+   "AudioMappingId": 1700
+  },
+  {
+   "Id": 11013,
+   "EquipPosition": "Arm",
+   "EquipName": "金身护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_arm_MiLe.SK_WuKong_arm_MiLe",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/ABP_Wukong_arm_MiLe.ABP_Wukong_arm_MiLe_C",
+   "SuitId": 10,
+   "AttrEffectId": 1013
+  },
+  {
+   "Id": 11014,
+   "EquipPosition": "Foot",
+   "EquipName": "金身护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MiLe/SK_WuKong_foot_MiLe.SK_WuKong_foot_MiLe",
+   "SuitId": 10,
+   "AttrEffectId": 1014,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11201,
+   "EquipName": "藏风兽面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_head_ShaLi.SK_WuKong_head_ShaLi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_wukong_head_shali.ABP_wukong_head_shali_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 12,
+   "AttrEffectId": 1201
+  },
+  {
+   "Id": 11202,
+   "EquipPosition": "Upwear",
+   "EquipName": "藏风兽吞铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_body_ShaLi.SK_WuKong_body_ShaLi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_Wukong_body_ShaLi.ABP_Wukong_body_ShaLi_C",
+   "SuitId": 12,
+   "AttrEffectId": 1202,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11203,
+   "EquipPosition": "Arm",
+   "EquipName": "藏风护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_arm_ShaLi.SK_WuKong_arm_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1203
+  },
+  {
+   "Id": 11204,
+   "EquipPosition": "Foot",
+   "EquipName": "藏风护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_foot_ShaLi.SK_WuKong_foot_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1204,
+   "EquipEffectId": 901204,
+   "EquipEffectDesc": "少时内连续<EquipDetail_LegendDesc_KW>闪身</>3次后，恢复少许法力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11211,
+   "EquipName": "藏风兽面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_head_ShaLi.SK_WuKong_head_ShaLi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_wukong_head_shali.ABP_wukong_head_shali_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 12,
+   "AttrEffectId": 1211
+  },
+  {
+   "Id": 11212,
+   "EquipPosition": "Upwear",
+   "EquipName": "藏风兽吞铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_body_ShaLi.SK_WuKong_body_ShaLi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_Wukong_body_ShaLi.ABP_Wukong_body_ShaLi_C",
+   "SuitId": 12,
+   "AttrEffectId": 1212,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11213,
+   "EquipPosition": "Arm",
+   "EquipName": "藏风护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_arm_ShaLi.SK_WuKong_arm_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1213
+  },
+  {
+   "Id": 11214,
+   "EquipPosition": "Foot",
+   "EquipName": "藏风护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_foot_ShaLi.SK_WuKong_foot_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1214,
+   "EquipEffectId": 901204,
+   "EquipEffectDesc": "少时内连续<EquipDetail_LegendDesc_KW>闪身</>3次后，恢复少许法力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11221,
+   "EquipName": "藏风兽面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_head_ShaLi.SK_WuKong_head_ShaLi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_wukong_head_shali.ABP_wukong_head_shali_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 12,
+   "AttrEffectId": 1221
+  },
+  {
+   "Id": 11222,
+   "EquipPosition": "Upwear",
+   "EquipName": "藏风兽吞铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_body_ShaLi.SK_WuKong_body_ShaLi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/AnimBlueprint/ABP_Wukong_body_ShaLi.ABP_Wukong_body_ShaLi_C",
+   "SuitId": 12,
+   "AttrEffectId": 1222,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11223,
+   "EquipPosition": "Arm",
+   "EquipName": "藏风护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_arm_ShaLi.SK_WuKong_arm_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1223
+  },
+  {
+   "Id": 11224,
+   "EquipPosition": "Foot",
+   "EquipName": "藏风护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/ShaLi/SK_WuKong_foot_ShaLi.SK_WuKong_foot_ShaLi",
+   "SuitId": 12,
+   "AttrEffectId": 1224,
+   "EquipEffectId": 901204,
+   "EquipEffectDesc": "少时内连续<EquipDetail_LegendDesc_KW>闪身</>3次后，恢复少许法力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11231,
+   "EquipName": "藏风兽面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/SK_wukong_head_cangfeng.SK_wukong_head_cangfeng",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/AnimBlueprint/ABP_wukong_head_cangfeng.ABP_wukong_head_cangfeng_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 12,
+   "AttrEffectId": 1231
+  },
+  {
+   "Id": 11232,
+   "EquipPosition": "Upwear",
+   "EquipName": "藏风兽吞铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/SK_wukong_body_cangfeng.SK_wukong_body_cangfeng",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/AnimBlueprint/ABP_wukong_body_cangfeng.ABP_wukong_body_cangfeng_C",
+   "SuitId": 12,
+   "AttrEffectId": 1232,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11233,
+   "EquipPosition": "Arm",
+   "EquipName": "藏风护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/SK_wukong_arm_cangfeng.SK_wukong_arm_cangfeng",
+   "SuitId": 12,
+   "AttrEffectId": 1233
+  },
+  {
+   "Id": 11234,
+   "EquipPosition": "Foot",
+   "EquipName": "藏风护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cangfeng/SK_wukong_foot_cangfeng.SK_wukong_foot_cangfeng",
+   "SuitId": 12,
+   "AttrEffectId": 1234,
+   "EquipEffectId": 901224,
+   "EquipEffectDesc": "少时内连续<EquipDetail_LegendDesc_KW>闪身</>3次后，恢复少许法力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11301,
+   "EquipName": "不净残面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_head_NiGou.SK_WuKong_head_NiGou",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/AnimBlueprint/ABP_wukong_head_nigou.ABP_wukong_head_nigou_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 13,
+   "AttrEffectId": 1301
+  },
+  {
+   "Id": 11302,
+   "EquipPosition": "Upwear",
+   "EquipName": "不净盘龙甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_body_NiGou.SK_WuKong_body_NiGou",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/AnimBlueprint/ABP_Wukong_body_NiGou.ABP_Wukong_body_NiGou_C",
+   "SuitId": 13,
+   "AttrEffectId": 1302,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11303,
+   "EquipPosition": "Arm",
+   "EquipName": "不净护釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_arm_NiGou.SK_WuKong_arm_NiGou",
+   "SuitId": 13,
+   "AttrEffectId": 1303
+  },
+  {
+   "Id": 11304,
+   "EquipPosition": "Foot",
+   "EquipName": "不净泥足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_foot_NiGou.SK_WuKong_foot_NiGou",
+   "SuitId": 13,
+   "AttrEffectId": 1304,
+   "EquipEffectId": 901304,
+   "EquipEffectDesc": "变身、化身还原时，短时间内所有动作不消耗气力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11311,
+   "EquipName": "不净残面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_head_NiGou.SK_WuKong_head_NiGou",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/AnimBlueprint/ABP_wukong_head_nigou.ABP_wukong_head_nigou_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 13,
+   "AttrEffectId": 1311
+  },
+  {
+   "Id": 11312,
+   "EquipPosition": "Upwear",
+   "EquipName": "不净盘龙甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_body_NiGou.SK_WuKong_body_NiGou",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/AnimBlueprint/ABP_Wukong_body_NiGou.ABP_Wukong_body_NiGou_C",
+   "SuitId": 13,
+   "AttrEffectId": 1312,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11313,
+   "EquipPosition": "Arm",
+   "EquipName": "不净护釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_arm_NiGou.SK_WuKong_arm_NiGou",
+   "SuitId": 13,
+   "AttrEffectId": 1313
+  },
+  {
+   "Id": 11314,
+   "EquipPosition": "Foot",
+   "EquipName": "不净泥足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiGou/SK_WuKong_foot_NiGou.SK_WuKong_foot_NiGou",
+   "SuitId": 13,
+   "AttrEffectId": 1314,
+   "EquipEffectId": 901304,
+   "EquipEffectDesc": "变身、化身还原时，短时间内所有动作不消耗气力",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11401,
+   "EquipName": "羽士云笠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_head_WuGong.SK_WuKong_head_WuGong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/AnimBlueprint/ABP_Wukong_head_WuGong.ABP_Wukong_head_WuGong_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SM_wukong_wugong_statichair.SM_wukong_wugong_statichair",
+    "StaticMesh'/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SM_wukong_wugong_shadowproxy.SM_wukong_wugong_shadowproxy'"
+   ],
+   "SuitId": 14,
+   "AttrEffectId": 1401,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11402,
+   "EquipPosition": "Upwear",
+   "EquipName": "羽士戗金甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_body_WuGong.SK_WuKong_body_WuGong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/AnimBlueprint/ABP_Wukong_body_WuGong.ABP_Wukong_body_WuGong_C",
+   "SuitId": 14,
+   "AttrEffectId": 1402,
+   "EquipEffectId": 901402,
+   "EquipEffectDesc": "打杀对手后，一定时间内少许增加攻击",
+   "AudioMappingId": 1300,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11403,
+   "EquipPosition": "Arm",
+   "EquipName": "羽士刺釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_arm_WuGong.SK_WuKong_arm_WuGong",
+   "SuitId": 14,
+   "AttrEffectId": 1403,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11404,
+   "EquipPosition": "Foot",
+   "EquipName": "羽士护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_foot_WuGong.SK_WuKong_foot_WuGong",
+   "SuitId": 14,
+   "AttrEffectId": 1404,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11411,
+   "EquipName": "羽士云笠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_head_WuGong.SK_WuKong_head_WuGong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/AnimBlueprint/ABP_Wukong_head_WuGong.ABP_Wukong_head_WuGong_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SM_wukong_wugong_statichair.SM_wukong_wugong_statichair",
+    "StaticMesh'/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SM_wukong_wugong_shadowproxy.SM_wukong_wugong_shadowproxy'"
+   ],
+   "SuitId": 14,
+   "AttrEffectId": 1411,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11412,
+   "EquipPosition": "Upwear",
+   "EquipName": "羽士戗金甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_body_WuGong.SK_WuKong_body_WuGong",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/AnimBlueprint/ABP_Wukong_body_WuGong.ABP_Wukong_body_WuGong_C",
+   "SuitId": 14,
+   "AttrEffectId": 1412,
+   "EquipEffectId": 901402,
+   "EquipEffectDesc": "打杀对手后，一定时间内少许增加攻击",
+   "AudioMappingId": 1300,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11413,
+   "EquipPosition": "Arm",
+   "EquipName": "羽士刺釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_arm_WuGong.SK_WuKong_arm_WuGong",
+   "SuitId": 14,
+   "AttrEffectId": 1413,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11414,
+   "EquipPosition": "Foot",
+   "EquipName": "羽士护腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/WuGong/SK_WuKong_foot_WuGong.SK_WuKong_foot_WuGong",
+   "SuitId": 14,
+   "AttrEffectId": 1414,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11501,
+   "EquipName": "百戏傩面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_head_MaXi.SK_WuKong_head_MaXi",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SM_wukong_maxi_statichair.SM_wukong_maxi_statichair"
+   ],
+   "SuitId": 15,
+   "AttrEffectId": 1501,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11502,
+   "EquipPosition": "Upwear",
+   "EquipName": "百戏衬钱衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_body_MaXi.SK_WuKong_body_MaXi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_body_MaXi.ABP_Wukong_body_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1502,
+   "AudioMappingId": 1400,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11503,
+   "EquipPosition": "Arm",
+   "EquipName": "百戏护手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_arm_MaXi.SK_WuKong_arm_MaXi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_arm_MaXi.ABP_Wukong_arm_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1503,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11504,
+   "EquipPosition": "Foot",
+   "EquipName": "百戏吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_foot_MaXi.SK_WuKong_foot_MaXi",
+   "SuitId": 15,
+   "AttrEffectId": 1504,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11511,
+   "EquipName": "百戏傩面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_head_MaXi.SK_WuKong_head_MaXi",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SM_wukong_maxi_statichair.SM_wukong_maxi_statichair"
+   ],
+   "SuitId": 15,
+   "AttrEffectId": 1511,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11512,
+   "EquipPosition": "Upwear",
+   "EquipName": "百戏衬钱衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_body_MaXi.SK_WuKong_body_MaXi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_body_MaXi.ABP_Wukong_body_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1512,
+   "AudioMappingId": 1400,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11513,
+   "EquipPosition": "Arm",
+   "EquipName": "百戏护手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_arm_MaXi.SK_WuKong_arm_MaXi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_arm_MaXi.ABP_Wukong_arm_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1513,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11514,
+   "EquipPosition": "Foot",
+   "EquipName": "百戏吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_foot_MaXi.SK_WuKong_foot_MaXi",
+   "SuitId": 15,
+   "AttrEffectId": 1514,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11521,
+   "EquipName": "百戏傩面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_head_MaXi.SK_WuKong_head_MaXi",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SM_wukong_maxi_statichair.SM_wukong_maxi_statichair"
+   ],
+   "SuitId": 15,
+   "AttrEffectId": 1521,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11522,
+   "EquipPosition": "Upwear",
+   "EquipName": "百戏衬钱衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_body_MaXi.SK_WuKong_body_MaXi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_body_MaXi.ABP_Wukong_body_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1522,
+   "AudioMappingId": 1400,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11523,
+   "EquipPosition": "Arm",
+   "EquipName": "百戏护手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_arm_MaXi.SK_WuKong_arm_MaXi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_arm_MaXi.ABP_Wukong_arm_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1523,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11524,
+   "EquipPosition": "Foot",
+   "EquipName": "百戏吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_foot_MaXi.SK_WuKong_foot_MaXi",
+   "SuitId": 15,
+   "AttrEffectId": 1524,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11531,
+   "EquipName": "百戏傩面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_head_MaXi.SK_WuKong_head_MaXi",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SM_wukong_maxi_statichair.SM_wukong_maxi_statichair"
+   ],
+   "SuitId": 15,
+   "AttrEffectId": 1531,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11532,
+   "EquipPosition": "Upwear",
+   "EquipName": "百戏衬钱衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_body_MaXi.SK_WuKong_body_MaXi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_body_MaXi.ABP_Wukong_body_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1532,
+   "AudioMappingId": 1400,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11533,
+   "EquipPosition": "Arm",
+   "EquipName": "百戏护手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_arm_MaXi.SK_WuKong_arm_MaXi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_arm_MaXi.ABP_Wukong_arm_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1533,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11534,
+   "EquipPosition": "Foot",
+   "EquipName": "百戏吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_foot_MaXi.SK_WuKong_foot_MaXi",
+   "SuitId": 15,
+   "AttrEffectId": 1534,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11541,
+   "EquipName": "百戏傩面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_head_MaXi.SK_WuKong_head_MaXi",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SM_wukong_maxi_statichair.SM_wukong_maxi_statichair"
+   ],
+   "SuitId": 15,
+   "AttrEffectId": 1541,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11542,
+   "EquipPosition": "Upwear",
+   "EquipName": "百戏衬钱衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_body_MaXi.SK_WuKong_body_MaXi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_body_MaXi.ABP_Wukong_body_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1542,
+   "AudioMappingId": 1400,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11543,
+   "EquipPosition": "Arm",
+   "EquipName": "百戏护手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_arm_MaXi.SK_WuKong_arm_MaXi",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/AnimBlueprint/ABP_Wukong_arm_MaXi.ABP_Wukong_arm_MaXi_C",
+   "SuitId": 15,
+   "AttrEffectId": 1543,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11544,
+   "EquipPosition": "Foot",
+   "EquipName": "百戏吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/MaXi/SK_WuKong_foot_MaXi.SK_WuKong_foot_MaXi",
+   "SuitId": 15,
+   "AttrEffectId": 1544,
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11601,
+   "EquipName": "大力王面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiuMo/SK_wukong_head_niumo.SK_wukong_head_niumo",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 16,
+   "AttrEffectId": 1601,
+   "EquipEffectId": 901601,
+   "EquipEffectDesc": "受到伤害时获得少许棍势；若此时天命人处于强硬状态，获得更多棍势",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11602,
+   "EquipPosition": "Upwear",
+   "EquipName": "大力山文甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiuMo/SK_wukong_body_niumo.SK_wukong_body_niumo",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiuMo/AnimBlueprint/ABP_wukong_body_niumo.ABP_wukong_body_niumo_C",
+   "SuitId": 16,
+   "AttrEffectId": 1602,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11603,
+   "EquipPosition": "Arm",
+   "EquipName": "大力臂甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiuMo/SK_wukong_arm_niumo.SK_wukong_arm_niumo",
+   "SuitId": 16,
+   "AttrEffectId": 1603
+  },
+  {
+   "Id": 11604,
+   "EquipPosition": "Foot",
+   "EquipName": "大力胫甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/NiuMo/SK_wukong_foot_niumo.SK_wukong_foot_niumo",
+   "SuitId": 16,
+   "AttrEffectId": 1604,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11701,
+   "EquipName": "青铜猴面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_head_heitie.SK_wukong_head_heitie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_head_heitie.ABP_wukong_head_heitie_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 17,
+   "AttrEffectId": 1701
+  },
+  {
+   "Id": 11702,
+   "EquipPosition": "Upwear",
+   "EquipName": "青铜锦征袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_body_heitie.SK_wukong_body_heitie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_body_heitie.ABP_wukong_body_heitie_C",
+   "SuitId": 17,
+   "AttrEffectId": 1702,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11703,
+   "EquipPosition": "Arm",
+   "EquipName": "青铜臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_arm_heitie.SK_wukong_arm_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1703,
+   "EquipEffectId": 901703,
+   "EquipEffectDesc": "触发天赋<EquipDetail_LegendDesc_KW>瞬机</>后，衔接轻棍将打出轻棍终结式  ",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11704,
+   "EquipPosition": "Foot",
+   "EquipName": "青铜吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_foot_heitie.SK_wukong_foot_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1704,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11711,
+   "EquipName": "青铜猴面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_head_heitie.SK_wukong_head_heitie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_head_heitie.ABP_wukong_head_heitie_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 17,
+   "AttrEffectId": 1711
+  },
+  {
+   "Id": 11712,
+   "EquipPosition": "Upwear",
+   "EquipName": "青铜锦征袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_body_heitie.SK_wukong_body_heitie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_body_heitie.ABP_wukong_body_heitie_C",
+   "SuitId": 17,
+   "AttrEffectId": 1712,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11713,
+   "EquipPosition": "Arm",
+   "EquipName": "青铜臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_arm_heitie.SK_wukong_arm_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1713,
+   "EquipEffectId": 901703,
+   "EquipEffectDesc": "触发天赋<EquipDetail_LegendDesc_KW>瞬机</>后，衔接轻棍将打出轻棍终结式  ",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11714,
+   "EquipPosition": "Foot",
+   "EquipName": "青铜吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_foot_heitie.SK_wukong_foot_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1714,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11721,
+   "EquipName": "青铜猴面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_head_heitie.SK_wukong_head_heitie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_head_heitie.ABP_wukong_head_heitie_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 17,
+   "AttrEffectId": 1721
+  },
+  {
+   "Id": 11722,
+   "EquipPosition": "Upwear",
+   "EquipName": "青铜锦征袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_body_heitie.SK_wukong_body_heitie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_body_heitie.ABP_wukong_body_heitie_C",
+   "SuitId": 17,
+   "AttrEffectId": 1722,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11723,
+   "EquipPosition": "Arm",
+   "EquipName": "青铜臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_arm_heitie.SK_wukong_arm_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1723,
+   "EquipEffectId": 901703,
+   "EquipEffectDesc": "触发天赋<EquipDetail_LegendDesc_KW>瞬机</>后，衔接轻棍将打出轻棍终结式  ",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11724,
+   "EquipPosition": "Foot",
+   "EquipName": "青铜吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_foot_heitie.SK_wukong_foot_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1724,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11731,
+   "EquipName": "青铜猴面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_head_heitie.SK_wukong_head_heitie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_head_heitie.ABP_wukong_head_heitie_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 17,
+   "AttrEffectId": 1731
+  },
+  {
+   "Id": 11732,
+   "EquipPosition": "Upwear",
+   "EquipName": "青铜锦征袍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_body_heitie.SK_wukong_body_heitie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/AnimBlueprint/ABP_wukong_body_heitie.ABP_wukong_body_heitie_C",
+   "SuitId": 17,
+   "AttrEffectId": 1732,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 11733,
+   "EquipPosition": "Arm",
+   "EquipName": "青铜臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_arm_heitie.SK_wukong_arm_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1733,
+   "EquipEffectId": 901703,
+   "EquipEffectDesc": "触发天赋<EquipDetail_LegendDesc_KW>瞬机</>后，衔接轻棍将打出轻棍终结式  ",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11734,
+   "EquipPosition": "Foot",
+   "EquipName": "青铜吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Heitie/SK_wukong_foot_heitie.SK_wukong_foot_heitie",
+   "SuitId": 17,
+   "AttrEffectId": 1734,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11801,
+   "EquipName": "玄铁双角盔",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_head_cibei.SK_wukong_head_cibei",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/AnimBlueprint/ABP_wukong_head_cibei.ABP_wukong_head_cibei_C",
+   "SuitId": 18,
+   "AttrEffectId": 1801
+  },
+  {
+   "Id": 11802,
+   "EquipPosition": "Upwear",
+   "EquipName": "玄铁征袍铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_body_cibei.SK_wukong_body_cibei",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/AnimBlueprint/ABP_wukong_body_cibei.ABP_wukong_body_cibei_C",
+   "SuitId": 18,
+   "AttrEffectId": 1802,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 11803,
+   "EquipPosition": "Arm",
+   "EquipName": "玄铁硬手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_arm_cibei.SK_wukong_arm_cibei",
+   "SuitId": 18,
+   "AttrEffectId": 1803,
+   "EquipEffectId": 901803,
+   "EquipEffectDesc": "<EquipDetail_LegendDesc_KW>铜头铁臂</>转震后，较大增加短时间内下次攻击的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11804,
+   "EquipPosition": "Foot",
+   "EquipName": "玄铁硬足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_foot_cibei.SK_wukong_foot_cibei",
+   "SuitId": 18,
+   "AttrEffectId": 1804,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11811,
+   "EquipName": "玄铁双角盔",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_head_cibei.SK_wukong_head_cibei",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/AnimBlueprint/ABP_wukong_head_cibei.ABP_wukong_head_cibei_C",
+   "SuitId": 18,
+   "AttrEffectId": 1811
+  },
+  {
+   "Id": 11812,
+   "EquipPosition": "Upwear",
+   "EquipName": "玄铁征袍铠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_body_cibei.SK_wukong_body_cibei",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/AnimBlueprint/ABP_wukong_body_cibei.ABP_wukong_body_cibei_C",
+   "SuitId": 18,
+   "AttrEffectId": 1812,
+   "AudioMappingId": 1200
+  },
+  {
+   "Id": 11813,
+   "EquipPosition": "Arm",
+   "EquipName": "玄铁硬手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_arm_cibei.SK_wukong_arm_cibei",
+   "SuitId": 18,
+   "AttrEffectId": 1813,
+   "EquipEffectId": 901803,
+   "EquipEffectDesc": "<EquipDetail_LegendDesc_KW>铜头铁臂</>转震后，较大增加短时间内下次攻击的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 11814,
+   "EquipPosition": "Foot",
+   "EquipName": "玄铁硬足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Cibei/SK_wukong_foot_cibei.SK_wukong_foot_cibei",
+   "SuitId": 18,
+   "AttrEffectId": 1814,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11901,
+   "EquipName": "昆蚑佛笠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_head_dujiao.SK_wukong_head_dujiao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/AnimBlueprint/ABP_wukong_head_dujiao.ABP_wukong_head_dujiao_C",
+   "SuitId": 19,
+   "AttrEffectId": 1901
+  },
+  {
+   "Id": 11903,
+   "EquipPosition": "Arm",
+   "EquipName": "昆蚑刺手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_arm_dujiao.SK_wukong_arm_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1903
+  },
+  {
+   "Id": 11904,
+   "EquipPosition": "Foot",
+   "EquipName": "昆蚑刺足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_foot_dujiao.SK_wukong_foot_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1904,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11911,
+   "EquipName": "昆蚑佛笠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_head_dujiao.SK_wukong_head_dujiao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/AnimBlueprint/ABP_wukong_head_dujiao.ABP_wukong_head_dujiao_C",
+   "SuitId": 19,
+   "AttrEffectId": 1911
+  },
+  {
+   "Id": 11912,
+   "EquipPosition": "Upwear",
+   "EquipName": "昆蚑毒敌甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_body_dujiao.SK_wukong_body_dujiao",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/AnimBlueprint/ABP_wukong_body_dujiao.ABP_wukong_body_dujiao_C",
+   "SuitId": 19,
+   "AttrEffectId": 1912,
+   "EquipEffectId": 901902,
+   "EquipEffectDesc": "一定程度增加所有赋毒攻击伤害",
+   "AudioMappingId": 1300,
+   "LocalizationTag": 1,
+   "HideTail": "Yes"
+  },
+  {
+   "Id": 11913,
+   "EquipPosition": "Arm",
+   "EquipName": "昆蚑刺手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_arm_dujiao.SK_wukong_arm_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1913
+  },
+  {
+   "Id": 11914,
+   "EquipPosition": "Foot",
+   "EquipName": "昆蚑刺足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_foot_dujiao.SK_wukong_foot_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1914,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 11921,
+   "EquipName": "昆蚑佛笠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_head_dujiao.SK_wukong_head_dujiao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/AnimBlueprint/ABP_wukong_head_dujiao.ABP_wukong_head_dujiao_C",
+   "SuitId": 19,
+   "AttrEffectId": 1921
+  },
+  {
+   "Id": 11922,
+   "EquipPosition": "Upwear",
+   "EquipName": "昆蚑毒敌甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_body_dujiao.SK_wukong_body_dujiao",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/AnimBlueprint/ABP_wukong_body_dujiao.ABP_wukong_body_dujiao_C",
+   "SuitId": 19,
+   "AttrEffectId": 1922,
+   "EquipEffectId": 901902,
+   "EquipEffectDesc": "一定程度增加所有赋毒攻击伤害",
+   "AudioMappingId": 1300,
+   "LocalizationTag": 1,
+   "HideTail": "Yes"
+  },
+  {
+   "Id": 11923,
+   "EquipPosition": "Arm",
+   "EquipName": "昆蚑刺手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_arm_dujiao.SK_wukong_arm_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1923
+  },
+  {
+   "Id": 11924,
+   "EquipPosition": "Foot",
+   "EquipName": "昆蚑刺足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dujiao/SK_wukong_foot_dujiao.SK_wukong_foot_dujiao",
+   "SuitId": 19,
+   "AttrEffectId": 1924,
+   "AudioMappingId": 2100
+  },
+  {
+   "Id": 12001,
+   "EquipName": "凤翅紫金冠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/SK_wukong_head_dashengtao.SK_wukong_head_dashengtao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/AnimBlueprint/ABP_wukong_head_dashengtao.ABP_wukong_head_dashengtao_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "SuitId": 20,
+   "AttrEffectId": 2001,
+   "AutoWear": "Yes"
+  },
+  {
+   "Id": 12002,
+   "EquipPosition": "Upwear",
+   "EquipName": "锁子黄金甲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/SK_wukong_body_dashengtao.SK_wukong_body_dashengtao",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/AnimBlueprint/ABP_wukong_body_dashengtao.ABP_wukong_body_dashengtao_C",
+   "SuitId": 20,
+   "AttrEffectId": 2002,
+   "AudioMappingId": 1500,
+   "AutoWear": "Yes"
+  },
+  {
+   "Id": 12003,
+   "EquipPosition": "Arm",
+   "EquipName": "点翠飞龙釬",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/SK_wukong_arm_dashengtao.SK_wukong_arm_dashengtao",
+   "SuitId": 20,
+   "AttrEffectId": 2003,
+   "AutoWear": "Yes"
+  },
+  {
+   "Id": 12004,
+   "EquipPosition": "Foot",
+   "EquipName": "藕丝步云履",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/SK_wukong_foot_dashengtao.SK_wukong_foot_dashengtao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Dashengtao/AnimBlueprint/ABP_wukong_foot_dashengtao.ABP_wukong_foot_dashengtao_C",
+   "SuitId": 20,
+   "AttrEffectId": 2004,
+   "AudioMappingId": 2100,
+   "AutoWear": "Yes"
+  },
+  {
+   "Id": 12101,
+   "EquipName": "三山冠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Shayunguan/SK_wukong_shayunguan.SK_wukong_shayunguan",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 2101,
+   "EquipEffectId": 902101,
+   "EquipEffectDesc": "携带<EquipDetail_LegendDesc_KW>三尖两刃枪</>时，加强<EquipDetail_LegendDesc_KW>轻棍</>连招",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12201,
+   "EquipName": "彩金狮子头 ",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_head_chunjie.SK_wukong_head_chunjie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_head_chunjie.ABP_wukong_head_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2201,
+   "EquipEffectId": 902201,
+   "EquipEffectDesc": "三、四段跳跃重棍打中对手后，一定时间内少许增加<EquipDetail_LegendDesc_KW>移动速度</>，并减少所有动作的<EquipDetail_LegendDesc_KW>气力消耗</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12202,
+   "EquipPosition": "Upwear",
+   "EquipName": "舞狮衣服",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_body_chunjie.SK_wukong_body_chunjie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_body_chunjie.ABP_wukong_body_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2202,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 12203,
+   "EquipPosition": "Arm",
+   "EquipName": "彩金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_arm_chunjie.SK_wukong_arm_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2203
+  },
+  {
+   "Id": 12204,
+   "EquipPosition": "Foot",
+   "EquipName": "彩金吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_foot_chunjie.SK_wukong_foot_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2204,
+   "EquipEffectId": 902204,
+   "EquipEffectDesc": "跳跃轻棍获得较短的<EquipDetail_LegendDesc_KW>无敌</>时间",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12211,
+   "EquipName": "彩金狮子头 ",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_head_chunjie.SK_wukong_head_chunjie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_head_chunjie.ABP_wukong_head_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2211,
+   "EquipEffectId": 902201,
+   "EquipEffectDesc": "三、四段跳跃重棍打中对手后，一定时间内少许增加<EquipDetail_LegendDesc_KW>移动速度</>，并减少所有动作的<EquipDetail_LegendDesc_KW>气力消耗</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12212,
+   "EquipPosition": "Upwear",
+   "EquipName": "彩金赤罗衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_body_chunjie.SK_wukong_body_chunjie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_body_chunjie.ABP_wukong_body_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2212,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 12213,
+   "EquipPosition": "Arm",
+   "EquipName": "彩金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_arm_chunjie.SK_wukong_arm_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2213
+  },
+  {
+   "Id": 12214,
+   "EquipPosition": "Foot",
+   "EquipName": "彩金吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_foot_chunjie.SK_wukong_foot_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2214,
+   "EquipEffectId": 902204,
+   "EquipEffectDesc": "跳跃轻棍获得较短的<EquipDetail_LegendDesc_KW>无敌</>时间",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12221,
+   "EquipName": "彩金狮子头 ",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_head_chunjie.SK_wukong_head_chunjie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_head_chunjie.ABP_wukong_head_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2221,
+   "EquipEffectId": 902201,
+   "EquipEffectDesc": "三、四段跳跃重棍打中对手后，一定时间内少许增加<EquipDetail_LegendDesc_KW>移动速度</>，并减少所有动作的<EquipDetail_LegendDesc_KW>气力消耗</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12222,
+   "EquipPosition": "Upwear",
+   "EquipName": "彩金赤罗衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_body_chunjie.SK_wukong_body_chunjie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_body_chunjie.ABP_wukong_body_chunjie_C",
+   "SuitId": 22,
+   "AttrEffectId": 2222,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 12223,
+   "EquipPosition": "Arm",
+   "EquipName": "彩金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_arm_chunjie.SK_wukong_arm_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2223
+  },
+  {
+   "Id": 12224,
+   "EquipPosition": "Foot",
+   "EquipName": "彩金吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_foot_chunjie.SK_wukong_foot_chunjie",
+   "SuitId": 22,
+   "AttrEffectId": 2224,
+   "EquipEffectId": 902204,
+   "EquipEffectDesc": "跳跃轻棍获得较短的<EquipDetail_LegendDesc_KW>无敌</>时间",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12231,
+   "EquipName": "彩金狮子头 ",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_head_chunjie.SK_wukong_head_chunjie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_head_chunjie.ABP_wukong_head_chunjie_C",
+   "SuitId": 23,
+   "AttrEffectId": 2231,
+   "EquipEffectId": 902201,
+   "EquipEffectDesc": "三、四段跳跃重棍打中对手后，一定时间内少许增加<EquipDetail_LegendDesc_KW>移动速度</>，并减少所有动作的<EquipDetail_LegendDesc_KW>气力消耗</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12232,
+   "EquipPosition": "Upwear",
+   "EquipName": "彩金赤罗衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_body_chunjie.SK_wukong_body_chunjie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_body_chunjie.ABP_wukong_body_chunjie_C",
+   "SuitId": 23,
+   "AttrEffectId": 2232,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 12233,
+   "EquipPosition": "Arm",
+   "EquipName": "彩金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_arm_chunjie.SK_wukong_arm_chunjie",
+   "SuitId": 23,
+   "AttrEffectId": 2233
+  },
+  {
+   "Id": 12234,
+   "EquipPosition": "Foot",
+   "EquipName": "彩金吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_foot_chunjie.SK_wukong_foot_chunjie",
+   "SuitId": 23,
+   "AttrEffectId": 2234,
+   "EquipEffectId": 902204,
+   "EquipEffectDesc": "跳跃轻棍获得较短的<EquipDetail_LegendDesc_KW>无敌</>时间",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12241,
+   "EquipName": "彩金狮子头 ",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_head_chunjie.SK_wukong_head_chunjie",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_head_chunjie.ABP_wukong_head_chunjie_C",
+   "SuitId": 23,
+   "AttrEffectId": 2241,
+   "EquipEffectId": 902201,
+   "EquipEffectDesc": "三、四段跳跃重棍打中对手后，一定时间内少许增加<EquipDetail_LegendDesc_KW>移动速度</>，并减少所有动作的<EquipDetail_LegendDesc_KW>气力消耗</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 12242,
+   "EquipPosition": "Upwear",
+   "EquipName": "彩金赤罗衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_body_chunjie.SK_wukong_body_chunjie",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/AnimBlueprint/ABP_wukong_body_chunjie.ABP_wukong_body_chunjie_C",
+   "SuitId": 23,
+   "AttrEffectId": 2242,
+   "AudioMappingId": 1300
+  },
+  {
+   "Id": 12243,
+   "EquipPosition": "Arm",
+   "EquipName": "彩金臂鞲",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_arm_chunjie.SK_wukong_arm_chunjie",
+   "SuitId": 23,
+   "AttrEffectId": 2243
+  },
+  {
+   "Id": 12244,
+   "EquipPosition": "Foot",
+   "EquipName": "彩金吊腿",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Chunjie/SK_wukong_foot_chunjie.SK_wukong_foot_chunjie",
+   "SuitId": 23,
+   "AttrEffectId": 2244,
+   "EquipEffectId": 902204,
+   "EquipEffectDesc": "跳跃轻棍获得较短的<EquipDetail_LegendDesc_KW>无敌</>时间",
+   "AudioMappingId": 2100,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17001,
+   "EquipName": "地灵伞盖",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/LingZhi/SK_wukong_head_lingzhi.SK_wukong_head_lingzhi",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/LingZhi/AnimBlueprint/ABP_wukong_head_lingzhi.ABP_wukong_head_lingzhi_C",
+   "AttrEffectId": 7001,
+   "EquipEffectId": 907001,
+   "EquipEffectDesc": "缓慢流失生命，但大大提升酒的<EquipDetail_LegendDesc_KW>生命恢复量</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17002,
+   "EquipName": "长嘴脸",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/HuangZhu/SK_wukong_huangzhu.SK_wukong_huangzhu",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/HuangZhu/AnimBlueprint/ABP_wukong_head_huangzhu.ABP_wukong_head_huangzhu_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 7002,
+   "EquipEffectId": 907002,
+   "EquipEffectDesc": "饮酒后一定时间内，少许增加攻击造成的伤害；若较长时间内不饮酒，则反之",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17003,
+   "EquipName": "鳖宝头骨",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/NiaoZui/SK_wukong_niaozui.SK_wukong_niaozui",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/NiaoZui/AnimBlueprint/ABP_wukong_head_niaozui.ABP_wukong_head_niaozui_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 7003,
+   "EquipEffectId": 907003,
+   "EquipEffectDesc": "少许增加打杀对手获得材料的机会",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17004,
+   "EquipPosition": "Upwear",
+   "EquipName": "山珍蓑衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Body/Renshen/SK_wukong_renshen_body.SK_wukong_renshen_body",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Body/Renshen/ABP_wukong_body_renshen.ABP_wukong_body_renshen_C",
+   "AttrEffectId": 7004,
+   "EquipEffectId": 907004,
+   "EquipEffectDesc": "饮酒后一定时间内，少许增加<EquipDetail_LegendDesc_KW>气力上限</>",
+   "AudioMappingId": 1600,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17005,
+   "EquipName": "长须头面",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/Mazha/SK_wukong_mazha.SK_wukong_mazha",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/Mazha/AnimBlueprint/ABP_wukong_head_mazha.ABP_wukong_head_mazha_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 7005,
+   "EquipEffectId": 907005,
+   "EquipEffectDesc": "一定程度增加所有<EquipDetail_LegendDesc_KW>跳跃攻击</>造成的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17006,
+   "EquipName": "白脸子",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/Lang/SK_wukong_lang.SK_wukong_lang",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 7006,
+   "EquipEffectId": 907006,
+   "EquipEffectDesc": "攻击生命危急的对手时，获得一定程度<EquipDetail_LegendDesc_KW>伤害加成</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17007,
+   "EquipName": "闭眼禅",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/Yanzhao/SK_wukong_yanzhao.SK_wukong_yanzhao",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Head/Yanzhao/AnimBlueprint/ABP_wukong_head_yanzhao.ABP_wukong_head_yanzhao_C",
+   "StaticMesh": [
+    "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Born/FaceRigged/SM_Wukong_head_born_static.SM_Wukong_head_born_static"
+   ],
+   "AttrEffectId": 7007,
+   "EquipEffectId": 907007,
+   "EquipEffectDesc": "更容易触发<EquipDetail_LegendDesc_KW>闪身</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17008,
+   "EquipPosition": "Upwear",
+   "EquipName": "阴阳法衣",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Body/Daopao/SK_wukong_body_daopao.SK_wukong_body_daopao",
+   "ModularType": "CopyPose",
+   "ModularTypeForCharacterAI": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Body/Daopao/ABP_wukong_body_daopao.ABP_wukong_body_daopao_C",
+   "AttrEffectId": 7008,
+   "EquipEffectId": 907008,
+   "EquipEffectDesc": "生命过半时属性为阳，少许减少受到的伤害，但攻击不再造成暴击伤害；生命不足时属性转阴，大大增加暴击率，但受到的伤害也大大增加",
+   "AudioMappingId": 1700,
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17009,
+   "EquipPosition": "Arm",
+   "EquipName": "下毒手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Arm/Wugong_02/SK_wukong_wugong_02.SK_wukong_wugong_02",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Arm/Wugong_02/AnimBlueprint/ABP_wukong_arm_wugong_02.ABP_wukong_arm_wugong_02_C",
+   "SuitId": 14,
+   "AttrEffectId": 7009,
+   "EquipEffectId": 907009,
+   "EquipEffectDesc": "暴击时，令对手积累<EquipDetail_SuitDesc_State>毒伤异常</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17010,
+   "EquipPosition": "Arm",
+   "EquipName": "南海念珠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Arm/Zhuchuan/SK_wukong_zhuchuan.SK_wukong_zhuchuan",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Arm/Zhuchuan/AnimBlueprint/ABP_wukong_arm_zhuchuan.ABP_wukong_arm_zhuchuan_C",
+   "AttrEffectId": 7010,
+   "EquipEffectId": 907010,
+   "EquipEffectDesc": "汲取鬼火后，长时间内少许增加<EquipDetail_LegendDesc_KW>生命与法力上限</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 17011,
+   "EquipPosition": "Arm",
+   "EquipName": "金刚护臂",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Equip/Arm/Yulan/SK_wukong_yulan.SK_wukong_yulan",
+   "AttrEffectId": 7011,
+   "EquipEffectId": 907011,
+   "EquipEffectDesc": "少许减少所有<EquipDetail_LegendDesc_KW>奇术</>的冷却时间",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 19991,
+   "EquipName": "测试用头",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Preview/Simple/SK_Wukong_Simple.SK_Wukong_Simple",
+   "AttrEffectId": 9991
+  },
+  {
+   "Id": 19992,
+   "EquipPosition": "Upwear",
+   "EquipName": "测试用身体",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Preview/Simple/SK_Wukong_Simple.SK_Wukong_Simple",
+   "AttrEffectId": 9992
+  },
+  {
+   "Id": 19993,
+   "EquipPosition": "Arm",
+   "EquipName": "测试用手",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Preview/Simple/SK_Wukong_Simple.SK_Wukong_Simple",
+   "AttrEffectId": 9993
+  },
+  {
+   "Id": 19994,
+   "EquipPosition": "Foot",
+   "EquipName": "测试用足",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Preview/Simple/SK_Wukong_Simple.SK_Wukong_Simple",
+   "AttrEffectId": 9994
+  },
+  {
+   "Id": 15001,
+   "EquipPosition": "Weapon",
+   "EquipName": "铜云棒",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Born/SK_Wukong_weapon_born.SK_Wukong_weapon_born",
+   "AttrEffectId": 5001,
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 1,
+   "IsFlexible": "Yes"
+  },
+  {
+   "Id": 15002,
+   "EquipPosition": "Weapon",
+   "EquipName": "如意金箍棒",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/DaSheng/SK_Wukong_DaSheng.SK_Wukong_DaSheng",
+   "SuitId": 20,
+   "AttrEffectId": 5002,
+   "EquipEffectId": 105002,
+   "EquipEffectDesc": "第四段棍势可永久维持，不再随时间减削",
+   "AudioMappingId": 3300,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1,
+   "AutoWear": "Yes"
+  },
+  {
+   "Id": 15003,
+   "EquipPosition": "Weapon",
+   "EquipName": "鳞棍·双蛇",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/LinGun/SK_WuKong_LinGun.SK_WuKong_LinGun",
+   "AttrEffectId": 5003,
+   "EquipEffectId": 105003,
+   "EquipEffectDesc": "少许增加<EquipDetail_LegendDesc_KW>轻棍终结式</>的伤害；若在水中打斗，效果大大增强",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 1,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15004,
+   "EquipPosition": "Weapon",
+   "EquipName": "兽棍·熊罴",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ShouGun/SK_WuKong_ShouGun.SK_WuKong_ShouGun",
+   "AttrEffectId": 5004,
+   "EquipEffectId": 105004,
+   "EquipEffectDesc": "一定程度增加<EquipDetail_LegendDesc_KW>聚形散气</>破隐一击的暴击率",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 1,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15005,
+   "EquipPosition": "Weapon",
+   "EquipName": "柳木棍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Born02/SK_Wukong_Born02.SK_Wukong_Born02",
+   "AttrEffectId": 5005,
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 1,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15006,
+   "EquipPosition": "Weapon",
+   "EquipName": "几丁棍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/KunGun02/SK_Wukong_KunGun02.SK_Wukong_KunGun02",
+   "AttrEffectId": 5006,
+   "EquipEffectId": 105006,
+   "EquipEffectDesc": "蓄力攻击打中对手时，每消耗一段棍势可恢复些微生命",
+   "AudioMappingId": 3300,
+   "AudioHitMappingId": 3,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15007,
+   "EquipPosition": "Weapon",
+   "EquipName": "昆棍·百眼",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/KunGun01/SK_Wukong_KunGun01.SK_Wukong_KunGun01",
+   "AttrEffectId": 5007,
+   "EquipEffectId": 105007,
+   "EquipEffectDesc": "蓄力攻击打中对手时，每消耗一段棍势可恢复些微生命，若对手处于<EquipDetail_SuitDesc_State>毒伤</>状态，恢复效果大大增强",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 2,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15008,
+   "EquipPosition": "Weapon",
+   "EquipName": "出云棍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ShiGun01/SK_Wukong_ShiGun01.SK_Wukong_ShiGun01",
+   "AttrEffectId": 5008,
+   "EquipEffectId": 105008,
+   "EquipEffectDesc": "少许增加蓄力劈棍的伤害",
+   "AudioMappingId": 3200,
+   "AudioHitMappingId": 2,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15009,
+   "EquipPosition": "Weapon",
+   "EquipName": "兽棍·貂鼠",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/HuangFengGun01/SK_Wukong_HuangFengGun01.SK_Wukong_HuangFengGun01",
+   "AttrEffectId": 5009,
+   "EquipEffectId": 105009,
+   "EquipEffectDesc": "<EquipDetail_LegendDesc_KW>轻棍第四式、棍花移步</>可舞起风沙，增加攻击范围和伤害",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 2,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15010,
+   "EquipPosition": "Weapon",
+   "EquipName": "鳞棍·蟠龙",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Panlonggun01/SK_wukong_panlonggun01.SK_wukong_panlonggun01",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Panlonggun01/ABP_wukong_panlonggun01.ABP_wukong_panlonggun01_C",
+   "AttrEffectId": 5010,
+   "EquipEffectId": 105010,
+   "EquipEffectDesc": "一定程度增加所有立棍招式的伤害",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 3,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15011,
+   "EquipPosition": "Weapon",
+   "EquipName": "业火杖",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ShiGun02/SK_Wukong_ShiGun02.SK_Wukong_ShiGun02",
+   "AttrEffectId": 5011,
+   "EquipEffectId": 105011,
+   "EquipEffectDesc": "使出三、四段蓄力劈棍，可在地面造成熔岩爆裂效果",
+   "AudioMappingId": 3200,
+   "AudioHitMappingId": 3,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15012,
+   "EquipPosition": "Weapon",
+   "EquipName": "狼牙棒",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/LangYaGun01/SK_Wukong_LangYaGun01.SK_Wukong_LangYaGun01",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/LangYaGun01/ABP_Wukong_LangYaGun.ABP_Wukong_LangYaGun_C",
+   "AttrEffectId": 5012,
+   "EquipEffectId": 105012,
+   "EquipEffectDesc": "识破对手攻击后，短时间内不断获得棍势",
+   "AudioMappingId": 3300,
+   "AudioHitMappingId": 3,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15013,
+   "EquipPosition": "Weapon",
+   "EquipName": "昆棍·蛛仙",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ZhiZhuGun01/SK_WuKong_ZhiZhuGun01.SK_WuKong_ZhiZhuGun01",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ZhiZhuGun01/ABP_wukong_zhizhugun01.ABP_wukong_zhizhugun01_C",
+   "AttrEffectId": 5013,
+   "EquipEffectId": 105013,
+   "EquipEffectDesc": "蓄力攻击打中对手时，每消耗一段棍势可恢复些微生命，自身处于<EquipDetail_SuitDesc_State>毒伤</>状态时，还可令对手积累毒伤异常",
+   "AudioMappingId": 3300,
+   "AudioHitMappingId": 3,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15014,
+   "EquipPosition": "Weapon",
+   "EquipName": "鳞棍·亢金",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Kangjinlonggun/SK_WuKong_kangjinlonggun.SK_WuKong_kangjinlonggun",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Kangjinlonggun/ABP_wukong_kangjinlonggun.ABP_wukong_kangjinlonggun_C",
+   "AttrEffectId": 5014,
+   "EquipEffectId": 105014,
+   "EquipEffectDesc": "天赋<EquipDetail_LegendDesc_KW>捣蒜打</>替换为造成雷电伤害，可令对手积累雷蛰异常",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 2,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15015,
+   "EquipPosition": "Weapon",
+   "EquipName": "飞龙宝杖",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/FeiLongGun01/SK_WuKong_FeiLongGun01.SK_WuKong_FeiLongGun01",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/FeiLongGun01/ABP_Wukong_FeiLongGun.ABP_Wukong_FeiLongGun_C",
+   "AttrEffectId": 5015,
+   "EquipEffectId": 105015,
+   "EquipEffectDesc": "一定程度增加所有立棍招式的伤害；使出三、四段蓄力立棍时，引出天龙，劈下落雷",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15016,
+   "EquipPosition": "Weapon",
+   "EquipName": "混铁棍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Huntiegun/SK_wukong_huntiegun.SK_wukong_huntiegun",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Huntiegun/ABP_wukong_huntiegun.ABP_wukong_huntiegun_C",
+   "AttrEffectId": 5016,
+   "EquipEffectId": 105016,
+   "EquipEffectDesc": "按照防御的一定比例，增加攻击造成的伤害",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15017,
+   "EquipPosition": "Weapon",
+   "EquipName": "天龙棍",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/BaiLongGun01/SK_WuKong_BaiLongGun01.SK_WuKong_BaiLongGun01",
+   "AttrEffectId": 5017,
+   "EquipEffectId": 105017,
+   "EquipEffectDesc": "蓄力时引雷上身；处于<EquipDetail_SuitDesc_State>雷蛰</>状态时，所有棍法附加赋雷伤害",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15018,
+   "EquipPosition": "Weapon",
+   "EquipName": "昆棍·通天",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Jiachongwanggun/SK_WuKong_jiachongwanggun.SK_WuKong_jiachongwanggun",
+   "AttrEffectId": 5018,
+   "EquipEffectId": 105018,
+   "EquipEffectDesc": "蓄力攻击打中对手时，每消耗一段棍势可恢复些微生命，并爆发尖刺伤害周遭对手",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15019,
+   "EquipPosition": "Weapon",
+   "EquipName": "兽棍·金睛",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Jinjinggun/SK_WuKong_jinjinggun.SK_WuKong_jinjinggun",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Jinjinggun/ABP_wukong_jinjinggun.ABP_wukong_jinjinggun_C",
+   "AttrEffectId": 5019,
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15020,
+   "EquipPosition": "Weapon",
+   "EquipName": "磬槌",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Langyagun02/SK_wukong_langyagun02.SK_wukong_langyagun02",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Langyagun02/ABP_wukong_langyagun02.ABP_wukong_langyagun02_C",
+   "AttrEffectId": 5020,
+   "EquipEffectId": 105020,
+   "EquipEffectDesc": "识破对手攻击后，短时间内不断获得棍势",
+   "AudioMappingId": 3200,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15021,
+   "EquipPosition": "Weapon",
+   "EquipName": "昆棍·不僵",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/KunGun03/SK_Wukong_KunGun03.SK_Wukong_KunGun03",
+   "AttrEffectId": 5021,
+   "EquipEffectId": 105021,
+   "EquipEffectDesc": "所有消耗棍势的招式打中对手时都可恢复少许生命；若对手处于<EquipDetail_SuitDesc_State>毒伤</>状态，恢复效果大大增强",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15022,
+   "EquipPosition": "Weapon",
+   "EquipName": "兽棍·神锋",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Shougun02/SK_wukong_shougun02.SK_wukong_shougun02",
+   "AttrEffectId": 5022,
+   "EquipEffectId": 105022,
+   "EquipEffectDesc": "不同棍法的四段蓄力重棍，将向对手施加不同的灾苦",
+   "AudioMappingId": 3300,
+   "AudioHitMappingId": 4,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15101,
+   "EquipPosition": "Weapon",
+   "EquipName": "三尖两刃枪",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/SanJianLiangRen/SK_wukong_sanjianliangrenqiang.SK_wukong_sanjianliangrenqiang",
+   "AttrEffectId": 5101,
+   "EquipEffectId": 105101,
+   "EquipEffectDesc": "在轻棍连招融入枪术，并增加所有戳棍招式的伤害；打出<EquipDetail_LegendDesc_KW>进尺</>时，还可射出飞剑",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 5,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15102,
+   "EquipPosition": "Weapon",
+   "EquipName": "楮白枪",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ZheBai/SK_wukong_zhebaiqiang.SK_wukong_zhebaiqiang",
+   "ModularType": "CopyPose",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/ZheBai/ABP_wukong_zhebaiqiang.ABP_wukong_zhebaiqiang_C",
+   "AttrEffectId": 5102,
+   "EquipEffectId": 105102,
+   "EquipEffectDesc": "在轻棍连招融入枪术，并增加所有戳棍招式的伤害",
+   "AudioMappingId": 3100,
+   "AudioHitMappingId": 5,
+   "IsFlexible": "Yes",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 15999,
+   "EquipPosition": "Weapon",
+   "EquipName": "如意全箍棒",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/DaSheng/SK_Wukong_DaSheng.SK_Wukong_DaSheng",
+   "AttrEffectId": 5999,
+   "AudioMappingId": 3100,
+   "IsFlexible": "Yes"
+  },
+  {
+   "Id": 19998,
+   "EquipPosition": "Weapon",
+   "EquipName": "测试用武器",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Weapon/Test/SK_Wukong_weapon_test.SK_Wukong_weapon_test",
+   "AttrEffectId": 9998,
+   "AudioMappingId": 3100,
+   "IsFlexible": "Yes"
+  },
+  {
+   "Id": 18001,
+   "EquipPosition": "Hulu",
+   "EquipName": "老葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born/SK_Wukong_gourd_born.SK_Wukong_gourd_born",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born/ABP_Wukong_gourd_born.ABP_Wukong_gourd_born_C",
+   "AttrEffectId": 8001,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18002,
+   "EquipPosition": "Hulu",
+   "EquipName": "药葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_01/SK_wukong_gourd_born_01.SK_wukong_gourd_born_01",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AttrEffectId": 8002,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18003,
+   "EquipPosition": "Hulu",
+   "EquipName": "仙药葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_02/SK_wukong_gourd_born_02.SK_wukong_gourd_born_02",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_02/ABP_wukong_gourd_born_02.ABP_wukong_gourd_born_02_C",
+   "AttrEffectId": 8003,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18004,
+   "EquipPosition": "Hulu",
+   "EquipName": "药王葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_03/SK_wukong_gourd_born_03.SK_wukong_gourd_born_03",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_03/ABP_wukong_gourd_born_03.ABP_wukong_gourd_born_03_C",
+   "AttrEffectId": 8004,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18005,
+   "EquipPosition": "Hulu",
+   "EquipName": "药师葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_04/SK_wukong_gourd_born_04.SK_wukong_gourd_born_04",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_04/ABP_wukong_gourd_born_04.ABP_wukong_gourd_born_04_C",
+   "AttrEffectId": 8005,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18006,
+   "EquipPosition": "Hulu",
+   "EquipName": "药师佛葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_05/SK_wukong_gourd_born_05.SK_wukong_gourd_born_05",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_05/ABP_wukong_gourd_born_05.ABP_wukong_gourd_born_05_C",
+   "AttrEffectId": 8006,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18007,
+   "EquipPosition": "Hulu",
+   "EquipName": "湘妃葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_06/SK_wukong_gourd_born_06.SK_wukong_gourd_born_06",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_06/ABP_wukong_gourd_born_06.ABP_wukong_gourd_born_06_C",
+   "AttrEffectId": 8007,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18008,
+   "EquipPosition": "Hulu",
+   "EquipName": "玉观音葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_07/SK_wukong_gourd_born_07.SK_wukong_gourd_born_07",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_07/ABP_wukong_gourd_born_07.ABP_wukong_gourd_born_07_C",
+   "AttrEffectId": 8008,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18009,
+   "EquipPosition": "Hulu",
+   "EquipName": "争先红葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_08/SK_wukong_gourd_born_08.SK_wukong_gourd_born_08",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/Born_08/ABP_wukong_gourd_born_08.ABP_wukong_gourd_born_08_C",
+   "AttrEffectId": 8009,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18010,
+   "EquipPosition": "Hulu",
+   "EquipName": "上清宝葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/02/SK_wukong_gourd_02.SK_wukong_gourd_02",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/02/ABP_wukong_gourd_02.ABP_wukong_gourd_02_C",
+   "AttrEffectId": 8010,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18011,
+   "EquipPosition": "Hulu",
+   "EquipName": "青田葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/08/SK_wukong_gourd_08.SK_wukong_gourd_08",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/08/ABP_wukong_gourd_08.ABP_wukong_gourd_08_C",
+   "AttrEffectId": 8011,
+   "EquipEffectId": 108011
+  },
+  {
+   "Id": 18012,
+   "EquipPosition": "Hulu",
+   "EquipName": "五鬼葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/01/SK_Wukong_gourd_01.SK_Wukong_gourd_01",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/01/ABP_Wukong_gourd_01.ABP_Wukong_gourd_01_C",
+   "AttrEffectId": 8012,
+   "EquipEffectId": 108012
+  },
+  {
+   "Id": 18013,
+   "EquipPosition": "Hulu",
+   "EquipName": "彩玉葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/03/SK_Wukong_gourd_03.SK_Wukong_gourd_03",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/03/ABP_Wukong_gourd_03.ABP_Wukong_gourd_03_C",
+   "AttrEffectId": 8013,
+   "EquipEffectId": 108013
+  },
+  {
+   "Id": 18014,
+   "EquipPosition": "Hulu",
+   "EquipName": "妙仙葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/07/SK_wukong_gourd_07.SK_wukong_gourd_07",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/07/ABP_wukong_gourd_07.ABP_wukong_gourd_07_C",
+   "AttrEffectId": 8014,
+   "EquipEffectId": 108014
+  },
+  {
+   "Id": 18015,
+   "EquipPosition": "Hulu",
+   "EquipName": "乾坤彩葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/05/SK_wukong_gourd_05.SK_wukong_gourd_05",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/05/ABP_wukong_gourd_05.ABP_wukong_gourd_05_C",
+   "AttrEffectId": 8015,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18016,
+   "EquipPosition": "Hulu",
+   "EquipName": "宝莲玉葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/06/SK_wukong_gourd_06.SK_wukong_gourd_06",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/06/ABP_wukong_gourd_06.ABP_wukong_gourd_06_C",
+   "AttrEffectId": 8016,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 18017,
+   "EquipPosition": "Hulu",
+   "EquipName": "燃葫芦",
+   "SkeletalMesh": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/04/SK_wukong_gourd_04.SK_wukong_gourd_04",
+   "ModularType": "AttachToSocket",
+   "ModularTypeForCharacterAI": "AttachToSocket",
+   "AttachSocketName": "gourd_main",
+   "AnimBlueprintClass": "/Game/00MainHZ/Characters/Wukong/Meshes/Hulu/04/ABP_wukong_gourd_04.ABP_wukong_gourd_04_C",
+   "AttrEffectId": 8017,
+   "EquipEffectId": 998002
+  },
+  {
+   "Id": 19001,
+   "EquipPosition": "Fabao",
+   "EquipName": "辟火罩",
+   "AttrEffectId": 9001
+  },
+  {
+   "Id": 19002,
+   "EquipPosition": "Fabao",
+   "EquipName": "定风珠",
+   "AttrEffectId": 9002
+  },
+  {
+   "Id": 19004,
+   "EquipPosition": "Fabao",
+   "EquipName": "绣花针",
+   "AttrEffectId": 9004
+  },
+  {
+   "Id": 19005,
+   "EquipPosition": "Fabao",
+   "EquipName": "芭蕉扇",
+   "AttrEffectId": 9005
+  },
+  {
+   "Id": 16001,
+   "EquipPosition": "Accessory",
+   "EquipName": "细磁茶盂",
+   "AttrEffectId": 6001,
+   "EquipEffectDesc": "少许增加<{0}_KW>气力恢复速度</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16002,
+   "EquipPosition": "Accessory",
+   "EquipName": "猫睛宝串",
+   "AttrEffectId": 6002,
+   "EquipEffectDesc": "些微增加<{0}_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16003,
+   "EquipPosition": "Accessory",
+   "EquipName": "玛瑙罐",
+   "AttrEffectId": 6003,
+   "EquipEffectDesc": "少许增加<{0}_KW>防御</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16004,
+   "EquipPosition": "Accessory",
+   "EquipName": "虎头牌",
+   "EquipEffectId": 106002,
+   "EquipEffectDesc": "若连续打中对手，短时间内少许增加<{0}_KW>攻击</>造成的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16005,
+   "EquipPosition": "Accessory",
+   "EquipName": "砗磲佩",
+   "EquipEffectId": 106005,
+   "EquipEffectDesc": "些微减少所有法术的回转时间",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16006,
+   "EquipPosition": "Accessory",
+   "EquipName": "金花玉萼",
+   "AttrEffectId": 6006,
+   "EquipEffectDesc": "些微增加打杀对手获得的<{0}_KW>灵蕴</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16007,
+   "EquipPosition": "Accessory",
+   "EquipName": "琉璃舍利瓶",
+   "EquipEffectId": 106007,
+   "EquipEffectDesc": "闪身时，恢复少许<{0}_KW>气力</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16008,
+   "EquipPosition": "Accessory",
+   "EquipName": "风铎",
+   "EquipEffectId": 106008,
+   "EquipEffectDesc": "些微增加<{0}_KW>移动速度</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16009,
+   "EquipPosition": "Accessory",
+   "EquipName": "雷榍",
+   "AttrEffectId": 6009,
+   "EquipEffectDesc": "少许增加<{0}_KW>雷蛰耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16010,
+   "EquipPosition": "Accessory",
+   "EquipName": "耐雪枝",
+   "AttrEffectId": 6010,
+   "EquipEffectDesc": "少许增加<{0}_KW>寒冻耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16011,
+   "EquipPosition": "Accessory",
+   "EquipName": "白狐毫",
+   "AttrEffectId": 6011,
+   "EquipEffectDesc": "少许增加变身的维持时间",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16012,
+   "EquipPosition": "Accessory",
+   "EquipName": "未来珠",
+   "EquipEffectId": 106012,
+   "EquipEffectDesc": "打中对手足够次数后，可避免下一次致命伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16013,
+   "EquipPosition": "Accessory",
+   "EquipName": "金色鲤",
+   "AttrEffectId": 6013,
+   "EquipEffectDesc": "少许增加打杀对手后获得材料的机会",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16014,
+   "EquipPosition": "Accessory",
+   "EquipName": "月玉兔",
+   "SuitId": 21,
+   "AttrEffectId": 6014,
+   "EquipEffectDesc": "些微增加<{0}_KW>伤害减免</>；若同时配有日金乌，可提升效果",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16015,
+   "EquipPosition": "Accessory",
+   "EquipName": "三清令",
+   "EquipEffectId": 106015,
+   "EquipEffectDesc": "生命不足时，一定程度增加<{0}_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16016,
+   "EquipPosition": "Accessory",
+   "EquipName": "定颜珠",
+   "EquipEffectId": 106016,
+   "EquipEffectDesc": "还魂后较长时间内，增加<{0}_KW>生命、法力、气力上限</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16017,
+   "EquipPosition": "Accessory",
+   "EquipName": "日金乌",
+   "SuitId": 21,
+   "AttrEffectId": 6017,
+   "EquipEffectDesc": "些微增加<{0}_KW>伤害加成</>；若同时配有月玉兔，可提升效果",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16018,
+   "EquipPosition": "Accessory",
+   "EquipName": "错金银带钩",
+   "AttrEffectId": 6018,
+   "EquipEffectDesc": "少许增加<{0}_KW>毒伤耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16019,
+   "EquipPosition": "Accessory",
+   "EquipName": "金钮",
+   "EquipEffectId": 106019,
+   "EquipEffectDesc": "生命饱满时，较大增加<{0}_KW>攻击</>造成的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16020,
+   "EquipPosition": "Accessory",
+   "EquipName": "阳燧珠",
+   "AttrEffectId": 6020,
+   "EquipEffectDesc": "少许增加<{0}_KW>火焚耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16021,
+   "EquipPosition": "Accessory",
+   "EquipName": "水火篮",
+   "AttrEffectId": 6021,
+   "EquipEffectDesc": "少许增加火性、寒性变身的<{0}_KW>攻击</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16022,
+   "EquipPosition": "Accessory",
+   "EquipName": "辟水珠",
+   "EquipEffectId": 106022,
+   "EquipEffectDesc": "在水中时，一定程度增加<{0}_KW>防御</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16023,
+   "EquipPosition": "Accessory",
+   "EquipName": "琥珀念珠",
+   "EquipEffectId": 106023,
+   "EquipEffectDesc": "少许加快提升棍势段数的速度",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16024,
+   "EquipPosition": "Accessory",
+   "EquipName": "仙箓",
+   "AttrEffectId": 6024,
+   "EquipEffectDesc": "些微增加打杀对手获得的<{0}_KW>道行</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16025,
+   "EquipPosition": "Accessory",
+   "EquipName": "虎筋绦子",
+   "EquipEffectId": 106025,
+   "EquipEffectDesc": "<{0}_KW>识破</>对手攻击后，短时间内一定程度增加<{0}_KW>攻击</>造成的伤害",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16026,
+   "EquipPosition": "Accessory",
+   "EquipName": "仙胞石片",
+   "EquipEffectId": 106026,
+   "EquipEffectDesc": "攻击无视对手的<{0}_KW>四灾耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16027,
+   "EquipPosition": "Accessory",
+   "EquipName": "摩尼珠",
+   "EquipEffectId": 106027,
+   "EquipEffectDesc": "陷入寒冻状态后，一定时间内少许增加<{0}_KW>暴击率</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16028,
+   "EquipPosition": "Accessory",
+   "EquipName": "博山炉",
+   "EquipEffectId": 106028,
+   "EquipEffectDesc": "饮尽葫芦后，获得一定程度<{0}_KW>伤害减免</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16029,
+   "EquipPosition": "Accessory",
+   "EquipName": "不求人",
+   "AttrEffectId": 6029,
+   "EquipEffectDesc": "一定程度增加<{0}_KW>气力上限</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16030,
+   "EquipPosition": "Accessory",
+   "EquipName": "吉祥灯",
+   "EquipEffectId": 106030,
+   "EquipEffectDesc": "<{0}_KW>聚形散气</>时对自身触发魔音效果：少许增加<{0}_KW>攻击</>，但大大减少<{0}_KW>生命上限</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16031,
+   "EquipPosition": "Accessory",
+   "EquipName": "金棕衣",
+   "AttrEffectId": 6031,
+   "EquipEffectId": 106031,
+   "EquipEffectDesc": "一定程度增加<{0}_KW>防御</>；受到伤害时，也伤害周遭对手",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16032,
+   "EquipPosition": "Accessory",
+   "EquipName": "兽与佛",
+   "AttrEffectId": 6032,
+   "EquipEffectDesc": "少许增加<{0}_KW>暴击伤害</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16033,
+   "EquipPosition": "Accessory",
+   "EquipName": "铜佛坠",
+   "AttrEffectId": 6033,
+   "EquipEffectDesc": "些微增加<{0}_KW>四灾耐性</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16034,
+   "EquipPosition": "Accessory",
+   "EquipName": "雷火印",
+   "AttrEffectId": 6034,
+   "EquipEffectDesc": "一定程度增加<{0}_KW>法力上限</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16035,
+   "EquipPosition": "Accessory",
+   "EquipName": "君子牌",
+   "EquipEffectId": 106035,
+   "EquipEffectDesc": "些微增加<{0}_KW>神力</>的回复速度",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16036,
+   "EquipPosition": "Accessory",
+   "EquipName": "卵中骨",
+   "AttrEffectId": 6036,
+   "EquipEffectDesc": "少许增加<{0}_KW>赋毒伤害</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16037,
+   "EquipPosition": "Accessory",
+   "EquipName": "白贝腰链",
+   "AttrEffectId": 6037,
+   "EquipEffectDesc": "些微增加<{0}_KW>攻击</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16038,
+   "EquipPosition": "Accessory",
+   "EquipName": "石虎节",
+   "EquipEffectId": 106038,
+   "EquipEffectDesc": "<{0}_KW>识破</>对手攻击后，短时间内些微增加<{0}_KW>暴击率</>，效果可垒叠6次",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16039,
+   "EquipPosition": "Accessory",
+   "EquipName": "满堂红",
+   "EquipEffectId": 106039,
+   "EquipEffectDesc": "在岩浆地形或安身法中，轻棍招式附带<EquipDetail_SuitDesc_State>火焚异常</>",
+   "LocalizationTag": 1
+  },
+  {
+   "Id": 16040,
+   "EquipPosition": "Accessory",
+   "EquipName": "神铁碎片",
+   "EquipEffectId": 106040,
+   "EquipEffectDesc": "大大延长大圣形态的维持时间，且进一步提高该形态时的<{0}_KW>攻击</>",
+   "LocalizationTag": 1
+  }
+ ]
+}
